@@ -1,1 +1,1 @@
-#include "../Baekjoon/다이나믹 프로그래밍/동적 계획법1/2748.hpp"
+#include "../Baekjoon/그리디 알고리즘/1931.hpp"
