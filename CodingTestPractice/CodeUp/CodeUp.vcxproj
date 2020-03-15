@@ -161,6 +161,16 @@
     <ClInclude Include="기초100제\1030.hpp" />
     <ClInclude Include="기초100제\1031.hpp" />
     <ClInclude Include="기초100제\1032.hpp" />
+    <ClInclude Include="기초100제\1033.hpp" />
+    <ClInclude Include="기초100제\1034.hpp" />
+    <ClInclude Include="기초100제\1035.hpp" />
+    <ClInclude Include="기초100제\1036.hpp" />
+    <ClInclude Include="기초100제\1037.hpp" />
+    <ClInclude Include="기초100제\1038.hpp" />
+    <ClInclude Include="기초100제\1039.hpp" />
+    <ClInclude Include="기초100제\1040.hpp" />
+    <ClInclude Include="기초100제\1041.hpp" />
+    <ClInclude Include="기초100제\1042.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
