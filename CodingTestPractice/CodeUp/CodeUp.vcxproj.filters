@@ -101,5 +101,35 @@
     <ClInclude Include="기초100제\1042.hpp">
       <Filter>기초100제</Filter>
     </ClInclude>
+    <ClInclude Include="기초100제\1043.hpp">
+      <Filter>기초100제</Filter>
+    </ClInclude>
+    <ClInclude Include="기초100제\1044.hpp">
+      <Filter>기초100제</Filter>
+    </ClInclude>
+    <ClInclude Include="기초100제\1045.hpp">
+      <Filter>기초100제</Filter>
+    </ClInclude>
+    <ClInclude Include="기초100제\1046.hpp">
+      <Filter>기초100제</Filter>
+    </ClInclude>
+    <ClInclude Include="기초100제\1047.hpp">
+      <Filter>기초100제</Filter>
+    </ClInclude>
+    <ClInclude Include="기초100제\1048.hpp">
+      <Filter>기초100제</Filter>
+    </ClInclude>
+    <ClInclude Include="기초100제\1049.hpp">
+      <Filter>기초100제</Filter>
+    </ClInclude>
+    <ClInclude Include="기초100제\1050.hpp">
+      <Filter>기초100제</Filter>
+    </ClInclude>
+    <ClInclude Include="기초100제\1052.hpp">
+      <Filter>기초100제</Filter>
+    </ClInclude>
+    <ClInclude Include="기초100제\1051.hpp">
+      <Filter>기초100제</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
