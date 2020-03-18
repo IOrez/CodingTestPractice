@@ -161,5 +161,35 @@
     <ClInclude Include="기초100제\1062.hpp">
       <Filter>기초100제</Filter>
     </ClInclude>
+    <ClInclude Include="기초100제\1063.hpp">
+      <Filter>기초100제</Filter>
+    </ClInclude>
+    <ClInclude Include="기초100제\1064.hpp">
+      <Filter>기초100제</Filter>
+    </ClInclude>
+    <ClInclude Include="기초100제\1065.hpp">
+      <Filter>기초100제</Filter>
+    </ClInclude>
+    <ClInclude Include="기초100제\1066.hpp">
+      <Filter>기초100제</Filter>
+    </ClInclude>
+    <ClInclude Include="기초100제\1067.hpp">
+      <Filter>기초100제</Filter>
+    </ClInclude>
+    <ClInclude Include="기초100제\1068.hpp">
+      <Filter>기초100제</Filter>
+    </ClInclude>
+    <ClInclude Include="기초100제\1069.hpp">
+      <Filter>기초100제</Filter>
+    </ClInclude>
+    <ClInclude Include="기초100제\1070.hpp">
+      <Filter>기초100제</Filter>
+    </ClInclude>
+    <ClInclude Include="기초100제\1071.hpp">
+      <Filter>기초100제</Filter>
+    </ClInclude>
+    <ClInclude Include="기초100제\1072.hpp">
+      <Filter>기초100제</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
