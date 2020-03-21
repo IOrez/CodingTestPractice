@@ -251,5 +251,26 @@
     <ClInclude Include="기초100제\1092.hpp">
       <Filter>기초100제</Filter>
     </ClInclude>
+    <ClInclude Include="기초100제\1093.hpp">
+      <Filter>기초100제</Filter>
+    </ClInclude>
+    <ClInclude Include="기초100제\1094.hpp">
+      <Filter>기초100제</Filter>
+    </ClInclude>
+    <ClInclude Include="기초100제\1095.hpp">
+      <Filter>기초100제</Filter>
+    </ClInclude>
+    <ClInclude Include="기초100제\1096.hpp">
+      <Filter>기초100제</Filter>
+    </ClInclude>
+    <ClInclude Include="기초100제\1097.hpp">
+      <Filter>기초100제</Filter>
+    </ClInclude>
+    <ClInclude Include="기초100제\1098.hpp">
+      <Filter>기초100제</Filter>
+    </ClInclude>
+    <ClInclude Include="기초100제\1099.hpp">
+      <Filter>기초100제</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

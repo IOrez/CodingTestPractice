@@ -20,8 +20,8 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{D7C30057-FA7C-4818-96BE-0AD2D942C1EF}</ProjectGuid>
-    <RootNamespace>CodeUp</RootNamespace>
+    <ProjectGuid>{A39B88C4-F3C6-4F39-8D27-631806F38910}</ProjectGuid>
+    <RootNamespace>Codeforces</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -138,96 +138,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="기초100제\1011.hpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="기초100제\1012.hpp" />
-    <ClInclude Include="기초100제\1013.hpp" />
-    <ClInclude Include="기초100제\1014.hpp" />
-    <ClInclude Include="기초100제\1015.hpp" />
-    <ClInclude Include="기초100제\1017.hpp" />
-    <ClInclude Include="기초100제\1018.hpp" />
-    <ClInclude Include="기초100제\1019.hpp" />
-    <ClInclude Include="기초100제\1020.hpp" />
-    <ClInclude Include="기초100제\1021.hpp" />
-    <ClInclude Include="기초100제\1022.hpp" />
-    <ClInclude Include="기초100제\1023.hpp" />
-    <ClInclude Include="기초100제\1024.hpp" />
-    <ClInclude Include="기초100제\1025.hpp" />
-    <ClInclude Include="기초100제\1026.hpp" />
-    <ClInclude Include="기초100제\1027.hpp" />
-    <ClInclude Include="기초100제\1028.hpp" />
-    <ClInclude Include="기초100제\1029.hpp" />
-    <ClInclude Include="기초100제\1030.hpp" />
-    <ClInclude Include="기초100제\1031.hpp" />
-    <ClInclude Include="기초100제\1032.hpp" />
-    <ClInclude Include="기초100제\1033.hpp" />
-    <ClInclude Include="기초100제\1034.hpp" />
-    <ClInclude Include="기초100제\1035.hpp" />
-    <ClInclude Include="기초100제\1036.hpp" />
-    <ClInclude Include="기초100제\1037.hpp" />
-    <ClInclude Include="기초100제\1038.hpp" />
-    <ClInclude Include="기초100제\1039.hpp" />
-    <ClInclude Include="기초100제\1040.hpp" />
-    <ClInclude Include="기초100제\1041.hpp" />
-    <ClInclude Include="기초100제\1042.hpp" />
-    <ClInclude Include="기초100제\1043.hpp" />
-    <ClInclude Include="기초100제\1044.hpp" />
-    <ClInclude Include="기초100제\1045.hpp" />
-    <ClInclude Include="기초100제\1046.hpp" />
-    <ClInclude Include="기초100제\1047.hpp" />
-    <ClInclude Include="기초100제\1048.hpp" />
-    <ClInclude Include="기초100제\1049.hpp" />
-    <ClInclude Include="기초100제\1050.hpp" />
-    <ClInclude Include="기초100제\1051.hpp" />
-    <ClInclude Include="기초100제\1052.hpp" />
-    <ClInclude Include="기초100제\1053.hpp" />
-    <ClInclude Include="기초100제\1054.hpp" />
-    <ClInclude Include="기초100제\1055.hpp" />
-    <ClInclude Include="기초100제\1056.hpp" />
-    <ClInclude Include="기초100제\1057.hpp" />
-    <ClInclude Include="기초100제\1058.hpp" />
-    <ClInclude Include="기초100제\1059.hpp" />
-    <ClInclude Include="기초100제\1060.hpp" />
-    <ClInclude Include="기초100제\1061.hpp" />
-    <ClInclude Include="기초100제\1062.hpp" />
-    <ClInclude Include="기초100제\1063.hpp" />
-    <ClInclude Include="기초100제\1064.hpp" />
-    <ClInclude Include="기초100제\1065.hpp" />
-    <ClInclude Include="기초100제\1066.hpp" />
-    <ClInclude Include="기초100제\1067.hpp" />
-    <ClInclude Include="기초100제\1068.hpp" />
-    <ClInclude Include="기초100제\1069.hpp" />
-    <ClInclude Include="기초100제\1070.hpp" />
-    <ClInclude Include="기초100제\1071.hpp" />
-    <ClInclude Include="기초100제\1072.hpp" />
-    <ClInclude Include="기초100제\1073.hpp" />
-    <ClInclude Include="기초100제\1074.hpp" />
-    <ClInclude Include="기초100제\1075.hpp" />
-    <ClInclude Include="기초100제\1076.hpp" />
-    <ClInclude Include="기초100제\1077.hpp" />
-    <ClInclude Include="기초100제\1078.hpp" />
-    <ClInclude Include="기초100제\1079.hpp" />
-    <ClInclude Include="기초100제\1080.hpp" />
-    <ClInclude Include="기초100제\1081.hpp" />
-    <ClInclude Include="기초100제\1082.hpp" />
-    <ClInclude Include="기초100제\1083.hpp" />
-    <ClInclude Include="기초100제\1084.hpp" />
-    <ClInclude Include="기초100제\1085.hpp" />
-    <ClInclude Include="기초100제\1086.hpp" />
-    <ClInclude Include="기초100제\1087.hpp" />
-    <ClInclude Include="기초100제\1088.hpp" />
-    <ClInclude Include="기초100제\1089.hpp" />
-    <ClInclude Include="기초100제\1090.hpp" />
-    <ClInclude Include="기초100제\1091.hpp" />
-    <ClInclude Include="기초100제\1092.hpp" />
-    <ClInclude Include="기초100제\1093.hpp" />
-    <ClInclude Include="기초100제\1094.hpp" />
-    <ClInclude Include="기초100제\1095.hpp" />
-    <ClInclude Include="기초100제\1096.hpp" />
-    <ClInclude Include="기초100제\1097.hpp" />
-    <ClInclude Include="기초100제\1098.hpp" />
-    <ClInclude Include="기초100제\1099.hpp" />
+    <ClInclude Include="Problems\4A.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

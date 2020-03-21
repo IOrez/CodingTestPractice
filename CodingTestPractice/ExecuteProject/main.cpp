@@ -1,1 +1,1 @@
-#include "../Baekjoon/그리디 알고리즘/2217.hpp"
+#include "../Codeforces/Problems/4A.hpp"
