@@ -4,6 +4,9 @@
     <Filter Include="기초100제">
       <UniqueIdentifier>{c6631ff8-6f8a-43f7-ad12-c0b6d467de9e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="그리디 알고리즘">
+      <UniqueIdentifier>{41eafff7-2e9b-4d2c-ae37-f07f39761036}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="기초100제\1011.hpp">
@@ -271,6 +274,9 @@
     </ClInclude>
     <ClInclude Include="기초100제\1099.hpp">
       <Filter>기초100제</Filter>
+    </ClInclude>
+    <ClInclude Include="그리디 알고리즘\2001.hpp">
+      <Filter>그리디 알고리즘</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
