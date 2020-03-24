@@ -4,6 +4,12 @@
     <Filter Include="Problems">
       <UniqueIdentifier>{02a4a7f5-0df9-402d-8c76-3fdfe2d48b58}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Contests">
+      <UniqueIdentifier>{1a3c2177-ec3f-4e3e-b2ab-2f397d84be43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contests\EducationalCodeforcesRound84_Div2">
+      <UniqueIdentifier>{ed58fd6b-a15b-4cf5-9a89-6ffaadc35a43}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Problems\4A.hpp">
@@ -14,6 +20,12 @@
     </ClInclude>
     <ClInclude Include="Problems\71A.hpp">
       <Filter>Problems</Filter>
+    </ClInclude>
+    <ClInclude Include="Contests\EducationalCodeforcesRound84_Div2\A.hpp">
+      <Filter>Contests\EducationalCodeforcesRound84_Div2</Filter>
+    </ClInclude>
+    <ClInclude Include="Contests\EducationalCodeforcesRound84_Div2\B.hpp">
+      <Filter>Contests\EducationalCodeforcesRound84_Div2</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
