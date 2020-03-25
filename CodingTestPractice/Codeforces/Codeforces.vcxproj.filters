@@ -27,5 +27,8 @@
     <ClInclude Include="Contests\EducationalCodeforcesRound84_Div2\B.hpp">
       <Filter>Contests\EducationalCodeforcesRound84_Div2</Filter>
     </ClInclude>
+    <ClInclude Include="Problems\158A.hpp">
+      <Filter>Problems</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

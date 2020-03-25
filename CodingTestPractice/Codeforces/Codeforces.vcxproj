@@ -140,6 +140,7 @@
   <ItemGroup>
     <ClInclude Include="Contests\EducationalCodeforcesRound84_Div2\A.hpp" />
     <ClInclude Include="Contests\EducationalCodeforcesRound84_Div2\B.hpp" />
+    <ClInclude Include="Problems\158A.hpp" />
     <ClInclude Include="Problems\4A.hpp" />
     <ClInclude Include="Problems\1A.hpp" />
     <ClInclude Include="Problems\71A.hpp" />
