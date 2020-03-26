@@ -143,6 +143,7 @@
   <ItemGroup>
     <ClInclude Include="DFS_BFS\2102.hpp" />
     <ClInclude Include="그리디 알고리즘\2001.hpp" />
+    <ClInclude Include="그리디 알고리즘\3120.hpp" />
     <ClInclude Include="기초100제\1012.hpp" />
     <ClInclude Include="기초100제\1013.hpp" />
     <ClInclude Include="기초100제\1014.hpp" />

@@ -1,1 +1,1 @@
-#include "../Codeforces/Problems/158A.hpp"
+#include "../Baekjoon/그리디 알고리즘/1049.hpp"
