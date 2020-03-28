@@ -13,6 +13,9 @@
     <Filter Include="재귀 함수">
       <UniqueIdentifier>{22e1fa5d-16ac-47e7-8ed1-c5f81dc7a611}</UniqueIdentifier>
     </Filter>
+    <Filter Include="탐색기반설계">
+      <UniqueIdentifier>{33229a2e-3975-4e96-8513-8ff6d7f5967c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="기초100제\1011.hpp">
@@ -292,6 +295,9 @@
     </ClInclude>
     <ClInclude Include="그리디 알고리즘\3120.hpp">
       <Filter>그리디 알고리즘</Filter>
+    </ClInclude>
+    <ClInclude Include="탐색기반설계\2623.hpp">
+      <Filter>탐색기반설계</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

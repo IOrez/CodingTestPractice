@@ -138,6 +138,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Contests\CodeforcesRound629_Div3\A.hpp" />
+    <ClInclude Include="Contests\CodeforcesRound629_Div3\B.hpp" />
+    <ClInclude Include="Contests\CodeforcesRound629_Div3\C.hpp" />
     <ClInclude Include="Contests\EducationalCodeforcesRound84_Div2\A.hpp" />
     <ClInclude Include="Contests\EducationalCodeforcesRound84_Div2\B.hpp" />
     <ClInclude Include="Problems\158A.hpp" />
