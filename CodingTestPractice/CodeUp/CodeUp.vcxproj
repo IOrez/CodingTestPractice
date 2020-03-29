@@ -87,6 +87,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -142,6 +143,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DFS_BFS\2102.hpp" />
+    <ClInclude Include="DFS_BFS\2605.hpp" />
     <ClInclude Include="그리디 알고리즘\2001.hpp" />
     <ClInclude Include="그리디 알고리즘\3120.hpp" />
     <ClInclude Include="그리디 알고리즘\3301.hpp" />

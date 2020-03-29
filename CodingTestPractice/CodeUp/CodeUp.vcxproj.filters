@@ -302,5 +302,8 @@
     <ClInclude Include="그리디 알고리즘\3301.hpp">
       <Filter>그리디 알고리즘</Filter>
     </ClInclude>
+    <ClInclude Include="DFS_BFS\2605.hpp">
+      <Filter>DFS_BFS</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
