@@ -16,6 +16,9 @@
     <Filter Include="탐색기반설계">
       <UniqueIdentifier>{33229a2e-3975-4e96-8513-8ff6d7f5967c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="이분 탐색">
+      <UniqueIdentifier>{7b3ca619-fc2a-4e5c-952d-e54dd9ede2ad}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="기초100제\1011.hpp">
@@ -304,6 +307,9 @@
     </ClInclude>
     <ClInclude Include="DFS_BFS\2605.hpp">
       <Filter>DFS_BFS</Filter>
+    </ClInclude>
+    <ClInclude Include="이분 탐색\2629.hpp">
+      <Filter>이분 탐색</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

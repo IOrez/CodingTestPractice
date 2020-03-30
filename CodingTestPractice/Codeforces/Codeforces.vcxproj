@@ -148,6 +148,7 @@
     <ClInclude Include="Problems\231A.hpp" />
     <ClInclude Include="Problems\4A.hpp" />
     <ClInclude Include="Problems\1A.hpp" />
+    <ClInclude Include="Problems\50A.hpp" />
     <ClInclude Include="Problems\71A.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

@@ -48,5 +48,8 @@
     <ClInclude Include="Problems\231A.hpp">
       <Filter>Problems</Filter>
     </ClInclude>
+    <ClInclude Include="Problems\50A.hpp">
+      <Filter>Problems</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
