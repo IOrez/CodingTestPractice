@@ -141,6 +141,7 @@
   <ItemGroup>
     <ClInclude Include="그리디 알고리즘\1049.hpp" />
     <ClInclude Include="그리디 알고리즘\10610.hpp" />
+    <ClInclude Include="그리디 알고리즘\1120.hpp" />
     <ClInclude Include="그리디 알고리즘\11399.hpp" />
     <ClInclude Include="그리디 알고리즘\1541.hpp" />
     <ClInclude Include="그리디 알고리즘\1931.hpp" />
