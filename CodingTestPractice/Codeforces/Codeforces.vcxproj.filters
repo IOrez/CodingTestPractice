@@ -13,6 +13,9 @@
     <Filter Include="Contests\CodeforcesRound629_Div3">
       <UniqueIdentifier>{2f8293cc-db42-4f67-9008-b9bea7d46467}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Contests\CodeforcesRound630_Div2">
+      <UniqueIdentifier>{e22407c8-8867-4923-a841-94a16c0047bd}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Problems\4A.hpp">
@@ -53,6 +56,12 @@
     </ClInclude>
     <ClInclude Include="Problems\282A.hpp">
       <Filter>Problems</Filter>
+    </ClInclude>
+    <ClInclude Include="Contests\CodeforcesRound630_Div2\A.hpp">
+      <Filter>Contests\CodeforcesRound630_Div2</Filter>
+    </ClInclude>
+    <ClInclude Include="Contests\CodeforcesRound630_Div2\B.hpp">
+      <Filter>Contests\CodeforcesRound630_Div2</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

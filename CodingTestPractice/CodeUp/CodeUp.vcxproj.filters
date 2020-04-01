@@ -19,6 +19,9 @@
     <Filter Include="이분 탐색">
       <UniqueIdentifier>{7b3ca619-fc2a-4e5c-952d-e54dd9ede2ad}</UniqueIdentifier>
     </Filter>
+    <Filter Include="최단 경로">
+      <UniqueIdentifier>{1b4e3757-e5ca-483f-984c-cbc6f2b083f1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="기초100제\1011.hpp">
@@ -313,6 +316,9 @@
     </ClInclude>
     <ClInclude Include="DFS_BFS\2610.hpp">
       <Filter>DFS_BFS</Filter>
+    </ClInclude>
+    <ClInclude Include="최단 경로\3215.hpp">
+      <Filter>최단 경로</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
