@@ -320,5 +320,8 @@
     <ClInclude Include="최단 경로\3215.hpp">
       <Filter>최단 경로</Filter>
     </ClInclude>
+    <ClInclude Include="그리디 알고리즘\3321.hpp">
+      <Filter>그리디 알고리즘</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

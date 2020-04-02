@@ -63,5 +63,8 @@
     <ClInclude Include="Contests\CodeforcesRound630_Div2\B.hpp">
       <Filter>Contests\CodeforcesRound630_Div2</Filter>
     </ClInclude>
+    <ClInclude Include="Problems\112A.hpp">
+      <Filter>Problems</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

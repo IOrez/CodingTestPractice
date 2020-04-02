@@ -1,1 +1,1 @@
-#include "../Codeforces/Contests/CodeforcesRound630_Div2/B.hpp"
+#include "../Codeforces/Problems/112A.hpp"
