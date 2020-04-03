@@ -22,6 +22,9 @@
     <Filter Include="최단 경로">
       <UniqueIdentifier>{1b4e3757-e5ca-483f-984c-cbc6f2b083f1}</UniqueIdentifier>
     </Filter>
+    <Filter Include="UnionFind">
+      <UniqueIdentifier>{a923c457-dae7-4a64-96df-cdad13e0a8aa}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="기초100제\1011.hpp">
@@ -322,6 +325,9 @@
     </ClInclude>
     <ClInclude Include="그리디 알고리즘\3321.hpp">
       <Filter>그리디 알고리즘</Filter>
+    </ClInclude>
+    <ClInclude Include="UnionFind\3270.hpp">
+      <Filter>UnionFind</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

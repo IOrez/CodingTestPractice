@@ -145,6 +145,7 @@
     <ClInclude Include="DFS_BFS\2102.hpp" />
     <ClInclude Include="DFS_BFS\2605.hpp" />
     <ClInclude Include="DFS_BFS\2610.hpp" />
+    <ClInclude Include="UnionFind\3270.hpp" />
     <ClInclude Include="그리디 알고리즘\2001.hpp" />
     <ClInclude Include="그리디 알고리즘\3120.hpp" />
     <ClInclude Include="그리디 알고리즘\3301.hpp" />

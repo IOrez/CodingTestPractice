@@ -1,50 +1,57 @@
-#include <cstdio>
-#include <string>
-#pragma warning(disable:4996)
+#include <iostream>
 
-char arr[50001] = "";
-char c_a[50001] = "";
-char c_b[50001] = "";
+using namespace std;
+
+char str[100001];
+
 int main()
 {
-	int testCase;
-	scanf("%d", &testCase);
-	for (int test = 1; test <= testCase; ++test) {
-		int n;
-		scanf("%d", &n);
-		bool change = false;
-		scanf("%s", arr);
-		int i;
-		for (i = 0; i < n; ++i)
+	ios_base::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL);
+
+	int N;
+	cin >> N;
+	while (N--)
+	{
+		int resultStrSize;
+		cin >> resultStrSize;
+		string resultStr;
+		cin >> str;
+		resultStr = str;
+		string s[2];
+		bool isMeet1 = false;
+
+		s[0].reserve(resultStrSize); s[1].reserve(resultStrSize);
+		for (auto i = 0; i < resultStrSize; ++i)
 		{
-			if (arr[i] == '2')
+			char ch = resultStr[i];
+			
+			if (!isMeet1)
 			{
-				c_a[i] = '1';
-				c_b[i] = '1';
-			}
-			else if (arr[i] == '0') {
-				c_a[i] = arr[i];
-				c_b[i] = arr[i];
-			}
-			else if (arr[i] == '1')
-			{
-				if (!change)
+				if (ch == '2')
 				{
-					c_a[i] = '1';
-					c_b[i] = '0';
+					s[0].push_back('1');
+					s[1].push_back('1');
+				}
+				else if (ch == '1')
+				{
+					s[0].push_back('1');
+					s[1].push_back('0');
+					isMeet1 = true;
 				}
 				else
 				{
-					c_b[i] = '1';
-					c_a[i] = '0';
+					s[0].push_back('0');
+					s[1].push_back('0');
 				}
-				change = !change;
+			}
+			else
+			{
+				s[0].push_back('0');
+				s[1].push_back(ch);
 			}
 		}
-		c_b[n] = '\0';
-		c_a[n] = '\0';
-		printf("%s\n", c_a);
-		printf("%s\n", c_b);
+		cout << s[0].c_str() << endl;
+		cout << s[1].c_str() << endl;
 	}
 	return 0;
 }
