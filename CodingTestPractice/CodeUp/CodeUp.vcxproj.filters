@@ -25,6 +25,9 @@
     <Filter Include="UnionFind">
       <UniqueIdentifier>{a923c457-dae7-4a64-96df-cdad13e0a8aa}</UniqueIdentifier>
     </Filter>
+    <Filter Include="구조체 연습">
+      <UniqueIdentifier>{4e528f92-9288-4800-9a49-0c6454755c89}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="기초100제\1011.hpp">
@@ -328,6 +331,9 @@
     </ClInclude>
     <ClInclude Include="UnionFind\3270.hpp">
       <Filter>UnionFind</Filter>
+    </ClInclude>
+    <ClInclude Include="구조체 연습\1805.hpp">
+      <Filter>구조체 연습</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
