@@ -1,1 +1,1 @@
-#include "../Baekjoon/그리디 알고리즘/2529.hpp"
+#include "../Baekjoon/정렬/11650.hpp"
