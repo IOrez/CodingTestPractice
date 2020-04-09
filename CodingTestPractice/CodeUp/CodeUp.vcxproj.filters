@@ -31,6 +31,9 @@
     <Filter Include="관계기반설계">
       <UniqueIdentifier>{0df3fb1a-5a08-4aa7-a21d-5265a10d30e9}</UniqueIdentifier>
     </Filter>
+    <Filter Include="정올 1번 수준 문제">
+      <UniqueIdentifier>{30dbb367-17fe-4ad9-8cdf-a1548881b9f6}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="기초100제\1011.hpp">
@@ -346,6 +349,9 @@
     </ClInclude>
     <ClInclude Include="관계기반설계\1905.hpp">
       <Filter>관계기반설계</Filter>
+    </ClInclude>
+    <ClInclude Include="정올 1번 수준 문제\4011.hpp">
+      <Filter>정올 1번 수준 문제</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
