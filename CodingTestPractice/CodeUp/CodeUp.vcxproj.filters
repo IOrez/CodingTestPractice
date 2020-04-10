@@ -34,6 +34,9 @@
     <Filter Include="정올 1번 수준 문제">
       <UniqueIdentifier>{30dbb367-17fe-4ad9-8cdf-a1548881b9f6}</UniqueIdentifier>
     </Filter>
+    <Filter Include="스택">
+      <UniqueIdentifier>{46ca1b4e-7410-4696-b657-367f4f0b170f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="기초100제\1011.hpp">
@@ -352,6 +355,9 @@
     </ClInclude>
     <ClInclude Include="정올 1번 수준 문제\4011.hpp">
       <Filter>정올 1번 수준 문제</Filter>
+    </ClInclude>
+    <ClInclude Include="스택\1402.hpp">
+      <Filter>스택</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
