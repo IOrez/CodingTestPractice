@@ -37,6 +37,9 @@
     <Filter Include="스택">
       <UniqueIdentifier>{46ca1b4e-7410-4696-b657-367f4f0b170f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="2019 정올1차 대비">
+      <UniqueIdentifier>{3860cbec-5d96-4ac6-82a7-1ce027d3bfc0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="기초100제\1011.hpp">
@@ -358,6 +361,9 @@
     </ClInclude>
     <ClInclude Include="스택\1402.hpp">
       <Filter>스택</Filter>
+    </ClInclude>
+    <ClInclude Include="2019 정올1차 대비\4816.hpp">
+      <Filter>2019 정올1차 대비</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
