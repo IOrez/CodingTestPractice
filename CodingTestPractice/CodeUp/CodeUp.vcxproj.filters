@@ -365,5 +365,8 @@
     <ClInclude Include="2019 정올1차 대비\4816.hpp">
       <Filter>2019 정올1차 대비</Filter>
     </ClInclude>
+    <ClInclude Include="그리디 알고리즘\4040.hpp">
+      <Filter>그리디 알고리즘</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

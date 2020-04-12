@@ -1,1 +1,1 @@
-#include "../Codeforces/Problems/266A.hpp"
+#include "../Codeforces/Problems/236.hpp"
