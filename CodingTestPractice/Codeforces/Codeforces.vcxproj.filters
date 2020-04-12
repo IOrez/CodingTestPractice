@@ -81,7 +81,7 @@
     <ClInclude Include="Problems\266A.hpp">
       <Filter>Problems</Filter>
     </ClInclude>
-    <ClInclude Include="Problems\236.hpp">
+    <ClInclude Include="Problems\236A.hpp">
       <Filter>Problems</Filter>
     </ClInclude>
   </ItemGroup>
