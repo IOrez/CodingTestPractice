@@ -40,6 +40,9 @@
     <Filter Include="2019 정올1차 대비">
       <UniqueIdentifier>{3860cbec-5d96-4ac6-82a7-1ce027d3bfc0}</UniqueIdentifier>
     </Filter>
+    <Filter Include="백트래킹">
+      <UniqueIdentifier>{74fa4028-cdb7-4278-870a-4e460505dbfa}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="기초100제\1011.hpp">
@@ -370,6 +373,9 @@
     </ClInclude>
     <ClInclude Include="DFS_BFS\3212.hpp">
       <Filter>DFS_BFS</Filter>
+    </ClInclude>
+    <ClInclude Include="백트래킹\2608.hpp">
+      <Filter>백트래킹</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

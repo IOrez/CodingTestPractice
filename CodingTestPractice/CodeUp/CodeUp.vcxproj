@@ -242,6 +242,7 @@
     <ClInclude Include="기초100제\1097.hpp" />
     <ClInclude Include="기초100제\1098.hpp" />
     <ClInclude Include="기초100제\1099.hpp" />
+    <ClInclude Include="백트래킹\2608.hpp" />
     <ClInclude Include="스택\1402.hpp" />
     <ClInclude Include="이분 탐색\2629.hpp" />
     <ClInclude Include="재귀 함수\1901.hpp" />
