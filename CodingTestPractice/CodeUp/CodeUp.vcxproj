@@ -245,6 +245,7 @@
     <ClInclude Include="백트래킹\2608.hpp" />
     <ClInclude Include="스택\1402.hpp" />
     <ClInclude Include="이분 탐색\2629.hpp" />
+    <ClInclude Include="이분 탐색\2631.hpp" />
     <ClInclude Include="재귀 함수\1901.hpp" />
     <ClInclude Include="재귀 함수\1902.hpp" />
     <ClInclude Include="정올 1번 수준 문제\4011.hpp" />
