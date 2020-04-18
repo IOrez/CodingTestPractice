@@ -94,4 +94,9 @@
       <Filter>Problems</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Problems\546A.hpp">
+      <Filter>Problems</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>

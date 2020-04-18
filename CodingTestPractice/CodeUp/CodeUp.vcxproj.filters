@@ -43,6 +43,9 @@
     <Filter Include="백트래킹">
       <UniqueIdentifier>{74fa4028-cdb7-4278-870a-4e460505dbfa}</UniqueIdentifier>
     </Filter>
+    <Filter Include="인덱스트리">
+      <UniqueIdentifier>{b4dbeb70-1dea-41bf-95a4-431ea3aea133}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="기초100제\1011.hpp">
@@ -382,6 +385,9 @@
     </ClInclude>
     <ClInclude Include="재귀 함수\2601.hpp">
       <Filter>재귀 함수</Filter>
+    </ClInclude>
+    <ClInclude Include="인덱스트리\3130.hpp">
+      <Filter>인덱스트리</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
