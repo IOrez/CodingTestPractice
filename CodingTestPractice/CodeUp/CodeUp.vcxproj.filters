@@ -46,6 +46,9 @@
     <Filter Include="인덱스트리">
       <UniqueIdentifier>{b4dbeb70-1dea-41bf-95a4-431ea3aea133}</UniqueIdentifier>
     </Filter>
+    <Filter Include="관리자 추천 문제">
+      <UniqueIdentifier>{5b00eeb1-34f6-4535-b16b-e0980af66872}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="기초100제\1011.hpp">
@@ -388,6 +391,9 @@
     </ClInclude>
     <ClInclude Include="인덱스트리\3130.hpp">
       <Filter>인덱스트리</Filter>
+    </ClInclude>
+    <ClInclude Include="관리자 추천 문제\1166.hpp">
+      <Filter>관리자 추천 문제</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
