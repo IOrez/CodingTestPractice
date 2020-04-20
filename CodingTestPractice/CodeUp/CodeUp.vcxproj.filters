@@ -49,6 +49,9 @@
     <Filter Include="관리자 추천 문제">
       <UniqueIdentifier>{5b00eeb1-34f6-4535-b16b-e0980af66872}</UniqueIdentifier>
     </Filter>
+    <Filter Include="쉬워 보이지만 한 번에 맞히기 어려운 문제">
+      <UniqueIdentifier>{1b4fa500-66c2-45a7-8224-b883c6d43465}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="기초100제\1011.hpp">
@@ -394,6 +397,9 @@
     </ClInclude>
     <ClInclude Include="관리자 추천 문제\1166.hpp">
       <Filter>관리자 추천 문제</Filter>
+    </ClInclude>
+    <ClInclude Include="쉬워 보이지만 한 번에 맞히기 어려운 문제\2019.hpp">
+      <Filter>쉬워 보이지만 한 번에 맞히기 어려운 문제</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

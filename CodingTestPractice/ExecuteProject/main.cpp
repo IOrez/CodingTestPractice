@@ -1,1 +1,1 @@
-#include "../Codeforces/Problems/116A.hpp"
+#include "../Baekjoon/다이나믹 프로그래밍/1520.hpp""
