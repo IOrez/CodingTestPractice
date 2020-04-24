@@ -407,5 +407,8 @@
     <ClInclude Include="UnionFind\3271.hpp">
       <Filter>UnionFind</Filter>
     </ClInclude>
+    <ClInclude Include="구조체 연습\3004.hpp">
+      <Filter>구조체 연습</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
