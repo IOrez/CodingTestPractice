@@ -111,6 +111,9 @@
     <ClInclude Include="Contests\CodeforcesRound636_Div3\D.hpp">
       <Filter>Contests\CodeforcesRound636_Div3</Filter>
     </ClInclude>
+    <ClInclude Include="Problems\160A.hpp">
+      <Filter>Problems</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Problems\546A.hpp">
