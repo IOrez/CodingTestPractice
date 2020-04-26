@@ -168,6 +168,7 @@
     <ClInclude Include="Problems\58A.hpp" />
     <ClInclude Include="Problems\69A.hpp" />
     <ClInclude Include="Problems\71A.hpp" />
+    <ClInclude Include="Problems\791A.hpp" />
     <ClInclude Include="Problems\96A.hpp" />
   </ItemGroup>
   <ItemGroup>
