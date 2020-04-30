@@ -425,5 +425,8 @@
     <ClInclude Include="스택\1714.hpp">
       <Filter>스택</Filter>
     </ClInclude>
+    <ClInclude Include="2019 정올1차 대비\4818.hpp">
+      <Filter>2019 정올1차 대비</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
