@@ -148,6 +148,7 @@
     <ClInclude Include="DFS_BFS\2605.hpp" />
     <ClInclude Include="DFS_BFS\2610.hpp" />
     <ClInclude Include="DFS_BFS\3212.hpp" />
+    <ClInclude Include="DFS_BFS\3500.hpp" />
     <ClInclude Include="UnionFind\3270.hpp" />
     <ClInclude Include="UnionFind\3271.hpp" />
     <ClInclude Include="관계기반설계\1905.hpp" />
