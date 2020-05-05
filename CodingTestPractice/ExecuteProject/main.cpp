@@ -1,1 +1,1 @@
-#include "../Codeforces/Problems/133A.hpp"
+#include "../Baekjoon/DFS_BFS/2206.hpp"

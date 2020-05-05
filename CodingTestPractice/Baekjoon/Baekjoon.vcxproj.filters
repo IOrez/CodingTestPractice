@@ -22,6 +22,9 @@
     <Filter Include="정렬">
       <UniqueIdentifier>{e3b61776-2fbb-45b0-84ba-d8dafc93b830}</UniqueIdentifier>
     </Filter>
+    <Filter Include="DFS_BFS">
+      <UniqueIdentifier>{5ea0271b-c989-4a9b-a471-a6a564d804eb}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="그리디 알고리즘\1931.hpp">
@@ -212,6 +215,39 @@
     </ClInclude>
     <ClInclude Include="다이나믹 프로그래밍\1890.hpp">
       <Filter>다이나믹 프로그래밍</Filter>
+    </ClInclude>
+    <ClInclude Include="DFS_BFS\1260.hpp">
+      <Filter>DFS_BFS</Filter>
+    </ClInclude>
+    <ClInclude Include="DFS_BFS\10451.hpp">
+      <Filter>DFS_BFS</Filter>
+    </ClInclude>
+    <ClInclude Include="DFS_BFS\2606.hpp">
+      <Filter>DFS_BFS</Filter>
+    </ClInclude>
+    <ClInclude Include="DFS_BFS\2667.hpp">
+      <Filter>DFS_BFS</Filter>
+    </ClInclude>
+    <ClInclude Include="DFS_BFS\4963.hpp">
+      <Filter>DFS_BFS</Filter>
+    </ClInclude>
+    <ClInclude Include="DFS_BFS\2583.hpp">
+      <Filter>DFS_BFS</Filter>
+    </ClInclude>
+    <ClInclude Include="DFS_BFS\2468.hpp">
+      <Filter>DFS_BFS</Filter>
+    </ClInclude>
+    <ClInclude Include="DFS_BFS\1389.hpp">
+      <Filter>DFS_BFS</Filter>
+    </ClInclude>
+    <ClInclude Include="DFS_BFS\7576.hpp">
+      <Filter>DFS_BFS</Filter>
+    </ClInclude>
+    <ClInclude Include="DFS_BFS\2178.hpp">
+      <Filter>DFS_BFS</Filter>
+    </ClInclude>
+    <ClInclude Include="DFS_BFS\2206.hpp">
+      <Filter>DFS_BFS</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
