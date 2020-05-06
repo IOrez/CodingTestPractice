@@ -1,1 +1,1 @@
-#include "../Baekjoon/DFS_BFS/2206.hpp"
+#include "../Baekjoon/그리디 알고리즘/1138.hpp"
