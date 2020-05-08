@@ -437,5 +437,8 @@
     <ClInclude Include="백트래킹\2641.hpp">
       <Filter>백트래킹</Filter>
     </ClInclude>
+    <ClInclude Include="이분 탐색\2633.hpp">
+      <Filter>이분 탐색</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
