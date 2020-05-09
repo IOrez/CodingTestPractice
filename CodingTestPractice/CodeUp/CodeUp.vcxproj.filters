@@ -52,6 +52,9 @@
     <Filter Include="쉬워 보이지만 한 번에 맞히기 어려운 문제">
       <UniqueIdentifier>{1b4fa500-66c2-45a7-8224-b883c6d43465}</UniqueIdentifier>
     </Filter>
+    <Filter Include="동적계획법">
+      <UniqueIdentifier>{b9b0564e-a308-425f-b8d2-b8c7ecac8686}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="기초100제\1011.hpp">
@@ -439,6 +442,9 @@
     </ClInclude>
     <ClInclude Include="이분 탐색\2633.hpp">
       <Filter>이분 탐색</Filter>
+    </ClInclude>
+    <ClInclude Include="동적계획법\2640.hpp">
+      <Filter>동적계획법</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
