@@ -259,6 +259,7 @@
     <ClInclude Include="이분 탐색\2631.hpp" />
     <ClInclude Include="이분 탐색\2633.hpp" />
     <ClInclude Include="인덱스트리\3130.hpp" />
+    <ClInclude Include="인덱스트리\3210.hpp" />
     <ClInclude Include="재귀 함수\1901.hpp" />
     <ClInclude Include="재귀 함수\1902.hpp" />
     <ClInclude Include="재귀 함수\1904.hpp" />

@@ -261,5 +261,8 @@
     <ClInclude Include="다이나믹 프로그래밍\11057.hpp">
       <Filter>다이나믹 프로그래밍</Filter>
     </ClInclude>
+    <ClInclude Include="그리디 알고리즘\2873.hpp">
+      <Filter>그리디 알고리즘</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
