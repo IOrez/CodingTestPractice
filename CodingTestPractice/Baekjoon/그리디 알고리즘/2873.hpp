@@ -1,9 +1,10 @@
 #include <iostream>
+#include <algorithm>
+#include <string>
 
 using namespace std;
 
 int Table[1000][1000];
-bool check[1000][1000];
 enum class Type
 {
 	OO,EO,OE,EE
@@ -12,148 +13,112 @@ enum class Type
 
 void func_OO_OE(int N,int M)
 {
-	bool toRight = true;
-	int col = 0;
-	for (int i = 0; i < N;)
+	int sPosY = 0;
+	string res;
+	auto func = [&](string& str, char ch, int cnt)
 	{
-		if (i == N - 1 && col == M - 1)break;
-		if (toRight)
-		{
-			if (col + 1 == M)
-			{
-				cout << "D";
-				i++;
-				toRight = false;
-			}
-			else
-			{
-				cout << "R";
-				col++;
-			}
-		}
-		else
-		{
-			if (col - 1 == -1)
-			{
-				cout << "D";
-				i++;
-				toRight = true;
-			}
-			else
-			{
-				cout << "L";
-				col--;
-			}
-		}
+		for (int i = 0; i < cnt; ++i)
+			str.push_back(ch);
+	};
+	while (sPosY + 1 < N)
+	{
+		func(res, 'R', M - 1);
+		func(res, 'D', 1);
+		func(res, 'L', M - 1);
+		func(res, 'D', 1);
+		sPosY += 2;
 	}
+	func(res, 'R', M - 1);
+	cout << res;
 };
 
 void func_EO(int N, int M)
 {
-	bool toDown = true;
-	int row = 0;
-	for (int i = 0; i < M;)
+	int sPosX = 0;
+	string res;
+	auto func = [&](string& str, char ch, int cnt)
 	{
-		if (row == N - 1 && i == M - 1)break;
-		if (toDown)
-		{
-			if (row + 1 == N)
-			{
-				cout << "R";
-				i++;
-				toDown = false;
-			}
-			else
-			{
-				cout << "D";
-				row++;
-			}
-		}
-		else
-		{
-			if (row - 1 == -1)
-			{
-				cout << "R";
-				i++;
-				toDown = true;
-			}
-			else
-			{
-				cout << "UP";
-				row--;
-			}
-		}
+		for (int i = 0; i < cnt; ++i)
+			str.push_back(ch);
+	};
+	while (sPosX + 1 < M)
+	{
+		func(res, 'D', N - 1);
+		func(res, 'R', 1);
+		func(res, 'U', N - 1);
+		func(res, 'R', 1);
+		sPosX += 2;
 	}
+	func(res, 'D', N - 1);
+	cout << res;
 }
 
 void func_EE(int N, int M,int MinposX,int MinposY)
 {
-	int dx[4] = { 0,1,-1,0 };
-	int dy[4] = { -1,0,0,1 };
-	auto isInRange = [&](int N, int M, int y, int x)
+	string res;
+	string revres;
+	
+	int sPosX = 0, sPosY = 0;
+	int ePosX = M-1, ePosY = N-1;
+	auto func = [&](string& str, char ch, int cnt)
 	{
-		return 0 <= y && y < N && 0 <= x && x < M;
+		for (int i = 0; i < cnt; ++i)
+			str.push_back(ch);
 	};
-	int posY = 0,posX = 0;
-	check[posY][posX] = true;
-	bool isLeft = true;
-	for (int i = 0; i < 4; ++i)
+	while (ePosY - sPosY > 1)
 	{
-		if (posY == N - 1 && posX == M - 1)
+		if (sPosY + 1 < MinposY)
 		{
-			break;
+			func(res, 'R', M - 1);
+			func(res, 'D', 1);
+			func(res, 'L', M - 1);
+			func(res, 'D', 1);
+			sPosY += 2;
 		}
-		int dPosX = posX + dx[i];
-		int dPosY = posY + dy[i];
-		if (isInRange(N, M, dPosY, dPosX))
+
+		if (ePosY - 1 > MinposY)
 		{
-			if (dPosX == MinposX && dPosY == MinposY)continue;
-			if (check[dPosY][dPosX])continue;
-			check[dPosY][dPosX] = true;
-			switch (i)
-			{
-			case 0:
-				cout << "U";
-				i = -1;
-				break;
-			case 1:
-			case 2:
-				if (dx[i] == 1)
-				{
-					cout << "R";
-					dx[1] = 1;
-					dx[2] = -1;
-					i = -1;
-					break;
-				}
-				else if (dx[i] == -1)
-				{
-					cout << "L";
-					dx[1] = -1;
-					dx[2] = 1;
-					i = -1;
-					break;
-				}
-			case 3:
-				cout << "D";
-				if (dPosX == 0)
-				{
-					dx[1] = 1;
-					dx[2] = -1;
-				}
-				else if (dPosX == M - 1)
-				{
-					dx[1] = -1;
-					dx[2] = 1;
-				}
-				i = -1;
-				break;
-			}
-			posY = dPosY;
-			posX = dPosX;
+			func(revres, 'R', M - 1);
+			func(revres, 'D', 1);
+			func(revres, 'L', M - 1);
+			func(revres, 'D', 1);
+			ePosY -= 2;
 		}
 	}
-	int a = 0;
+
+	while (ePosX - sPosX > 1)
+	{
+		if (sPosX + 1 < MinposX)
+		{
+			func(res, 'D', 1);
+			func(res, 'R', 1);
+			func(res, 'U', 1);
+			func(res, 'R', 1);
+			sPosX += 2;
+		}
+
+		if (ePosX - 1 > MinposX)
+		{
+			func(revres, 'D',1);
+			func(revres, 'R',1);
+			func(revres, 'U',1);
+			func(revres, 'R',1);
+			ePosX -= 2;
+		}
+	}
+	if (sPosX + 1 == MinposX)
+	{
+		func(res, 'D', 1);
+		func(res, 'R', 1);
+	}
+	else
+	{
+		func(res, 'R', 1);
+		func(res, 'D', 1);
+	}
+	reverse(revres.begin(), revres.end());
+	res.append(revres);
+	cout << res;
 }
 int main()
 {
@@ -173,7 +138,7 @@ int main()
 		for (int j = 0; j < M; ++j)
 		{
 			cin >> Table[i][j];
-			if ((i + j) % 2 && min > Table[i][j]&&!(i==N-1&&j==M-1))
+			if ((i + j) % 2 && min > Table[i][j])
 			{
 				min = Table[i][j];
 				min_row = i;
