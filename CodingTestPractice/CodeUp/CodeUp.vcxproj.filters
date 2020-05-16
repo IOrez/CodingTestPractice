@@ -458,5 +458,8 @@
     <ClInclude Include="최단 경로\3217.hpp">
       <Filter>최단 경로</Filter>
     </ClInclude>
+    <ClInclude Include="구조체 연습\3015.hpp">
+      <Filter>구조체 연습</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

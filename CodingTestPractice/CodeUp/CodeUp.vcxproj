@@ -157,6 +157,7 @@
     <ClInclude Include="관리자 추천 문제\1173.hpp" />
     <ClInclude Include="구조체 연습\1805.hpp" />
     <ClInclude Include="구조체 연습\3004.hpp" />
+    <ClInclude Include="구조체 연습\3015.hpp" />
     <ClInclude Include="그리디 알고리즘\2001.hpp" />
     <ClInclude Include="그리디 알고리즘\3120.hpp" />
     <ClInclude Include="그리디 알고리즘\3301.hpp" />
