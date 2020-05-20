@@ -1,1 +1,1 @@
-#include "../Codeforces/Problems/266B.hpp"
+#include "../Baekjoon/브루트 포스/1018.hpp"

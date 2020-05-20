@@ -25,6 +25,9 @@
     <Filter Include="DFS_BFS">
       <UniqueIdentifier>{5ea0271b-c989-4a9b-a471-a6a564d804eb}</UniqueIdentifier>
     </Filter>
+    <Filter Include="브루트 포스">
+      <UniqueIdentifier>{55d013cb-1bfd-4af3-94ec-187da5c403c2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="그리디 알고리즘\1931.hpp">
@@ -284,6 +287,15 @@
     </ClInclude>
     <ClInclude Include="그리디 알고리즘\1092.hpp">
       <Filter>그리디 알고리즘</Filter>
+    </ClInclude>
+    <ClInclude Include="브루트 포스\2231.hpp">
+      <Filter>브루트 포스</Filter>
+    </ClInclude>
+    <ClInclude Include="브루트 포스\1526.hpp">
+      <Filter>브루트 포스</Filter>
+    </ClInclude>
+    <ClInclude Include="브루트 포스\1018.hpp">
+      <Filter>브루트 포스</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
