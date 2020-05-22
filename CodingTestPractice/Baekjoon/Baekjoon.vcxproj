@@ -225,6 +225,9 @@
     <ClInclude Include="브루트 포스\1065.hpp" />
     <ClInclude Include="브루트 포스\14500.hpp" />
     <ClInclude Include="브루트 포스\1526.hpp" />
+    <ClInclude Include="브루트 포스\15684.hpp" />
+    <ClInclude Include="브루트 포스\1759.hpp" />
+    <ClInclude Include="브루트 포스\1987.hpp" />
     <ClInclude Include="브루트 포스\2231.hpp" />
     <ClInclude Include="브루트 포스\6603.hpp" />
     <ClInclude Include="스택\10828.hpp" />
