@@ -315,5 +315,11 @@
     <ClInclude Include="브루트 포스\15684.hpp">
       <Filter>브루트 포스</Filter>
     </ClInclude>
+    <ClInclude Include="브루트 포스\2661.hpp">
+      <Filter>브루트 포스</Filter>
+    </ClInclude>
+    <ClInclude Include="브루트 포스\2239.hpp">
+      <Filter>브루트 포스</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
