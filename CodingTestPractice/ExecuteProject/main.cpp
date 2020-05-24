@@ -1,1 +1,1 @@
-#include "../Baekjoon/브루트 포스/2239.hpp"
+#include "../Baekjoon/그리디 알고리즘/1781.hpp"

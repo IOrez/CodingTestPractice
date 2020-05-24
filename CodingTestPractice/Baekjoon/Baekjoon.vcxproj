@@ -168,6 +168,7 @@
     <ClInclude Include="그리디 알고리즘\1543.hpp" />
     <ClInclude Include="그리디 알고리즘\1700.hpp" />
     <ClInclude Include="그리디 알고리즘\1744.hpp" />
+    <ClInclude Include="그리디 알고리즘\1781.hpp" />
     <ClInclude Include="그리디 알고리즘\1783.hpp" />
     <ClInclude Include="그리디 알고리즘\1789.hpp" />
     <ClInclude Include="그리디 알고리즘\1931.hpp" />
