@@ -260,6 +260,7 @@
     <ClInclude Include="쉬워 보이지만 한 번에 맞히기 어려운 문제\2021.hpp" />
     <ClInclude Include="스택\1402.hpp" />
     <ClInclude Include="스택\1714.hpp" />
+    <ClInclude Include="스택\2016.hpp" />
     <ClInclude Include="이분 탐색\2629.hpp" />
     <ClInclude Include="이분 탐색\2631.hpp" />
     <ClInclude Include="이분 탐색\2633.hpp" />
