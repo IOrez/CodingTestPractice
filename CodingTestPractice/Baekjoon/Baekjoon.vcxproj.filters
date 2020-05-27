@@ -28,6 +28,9 @@
     <Filter Include="브루트 포스">
       <UniqueIdentifier>{55d013cb-1bfd-4af3-94ec-187da5c403c2}</UniqueIdentifier>
     </Filter>
+    <Filter Include="다익스트라">
+      <UniqueIdentifier>{731519eb-80a2-43e5-b3dd-765f571d75ba}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="그리디 알고리즘\1931.hpp">
@@ -329,6 +332,9 @@
     </ClInclude>
     <ClInclude Include="DFS_BFS\1697.hpp">
       <Filter>DFS_BFS</Filter>
+    </ClInclude>
+    <ClInclude Include="다익스트라\1753.hpp">
+      <Filter>다익스트라</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
