@@ -31,6 +31,12 @@
     <Filter Include="다익스트라">
       <UniqueIdentifier>{731519eb-80a2-43e5-b3dd-765f571d75ba}</UniqueIdentifier>
     </Filter>
+    <Filter Include="플로이드 와샬 알고리즘">
+      <UniqueIdentifier>{0ccc2af9-1836-432d-80b1-5f487c88ab20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="자료구조">
+      <UniqueIdentifier>{549e95a7-ead3-401d-ba3d-b2728f9342a0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="그리디 알고리즘\1931.hpp">
@@ -335,6 +341,12 @@
     </ClInclude>
     <ClInclude Include="다익스트라\1753.hpp">
       <Filter>다익스트라</Filter>
+    </ClInclude>
+    <ClInclude Include="플로이드 와샬 알고리즘\11403.hpp">
+      <Filter>플로이드 와샬 알고리즘</Filter>
+    </ClInclude>
+    <ClInclude Include="자료구조\1620.hpp">
+      <Filter>자료구조</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

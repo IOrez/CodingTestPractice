@@ -237,9 +237,11 @@
     <ClInclude Include="브루트 포스\2661.hpp" />
     <ClInclude Include="브루트 포스\6603.hpp" />
     <ClInclude Include="스택\10828.hpp" />
+    <ClInclude Include="자료구조\1620.hpp" />
     <ClInclude Include="정렬\11650.hpp" />
     <ClInclude Include="출력\11718.hpp" />
     <ClInclude Include="큐\10845.hpp" />
+    <ClInclude Include="플로이드 와샬 알고리즘\11403.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
