@@ -37,6 +37,9 @@
     <Filter Include="자료구조">
       <UniqueIdentifier>{549e95a7-ead3-401d-ba3d-b2728f9342a0}</UniqueIdentifier>
     </Filter>
+    <Filter Include="트리">
+      <UniqueIdentifier>{074bcbbd-a347-4e33-b5f7-33a38af34461}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="그리디 알고리즘\1931.hpp">
@@ -347,6 +350,12 @@
     </ClInclude>
     <ClInclude Include="자료구조\1620.hpp">
       <Filter>자료구조</Filter>
+    </ClInclude>
+    <ClInclude Include="정렬\10989.hpp">
+      <Filter>정렬</Filter>
+    </ClInclude>
+    <ClInclude Include="트리\1991.hpp">
+      <Filter>트리</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
