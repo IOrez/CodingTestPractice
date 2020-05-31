@@ -40,6 +40,12 @@
     <Filter Include="트리">
       <UniqueIdentifier>{074bcbbd-a347-4e33-b5f7-33a38af34461}</UniqueIdentifier>
     </Filter>
+    <Filter Include="구현">
+      <UniqueIdentifier>{b5708540-4685-40cc-9914-674a37050913}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="문자열 처리">
+      <UniqueIdentifier>{5ecb910f-816e-47f7-8584-253e2c352462}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="그리디 알고리즘\1931.hpp">
@@ -359,6 +365,12 @@
     </ClInclude>
     <ClInclude Include="브루트 포스\2309.hpp">
       <Filter>브루트 포스</Filter>
+    </ClInclude>
+    <ClInclude Include="구현\2839.hpp">
+      <Filter>구현</Filter>
+    </ClInclude>
+    <ClInclude Include="문자열 처리\1152.hpp">
+      <Filter>문자열 처리</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
