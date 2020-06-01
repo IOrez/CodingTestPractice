@@ -46,6 +46,9 @@
     <Filter Include="문자열 처리">
       <UniqueIdentifier>{5ecb910f-816e-47f7-8584-253e2c352462}</UniqueIdentifier>
     </Filter>
+    <Filter Include="백트래킹">
+      <UniqueIdentifier>{752ec24e-c76e-42ce-b1dd-a2a2483dad41}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="그리디 알고리즘\1931.hpp">
@@ -371,6 +374,9 @@
     </ClInclude>
     <ClInclude Include="문자열 처리\1152.hpp">
       <Filter>문자열 처리</Filter>
+    </ClInclude>
+    <ClInclude Include="백트래킹\2580.hpp">
+      <Filter>백트래킹</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
