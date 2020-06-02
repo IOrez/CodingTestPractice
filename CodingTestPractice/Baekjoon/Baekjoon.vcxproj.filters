@@ -378,5 +378,8 @@
     <ClInclude Include="백트래킹\2580.hpp">
       <Filter>백트래킹</Filter>
     </ClInclude>
+    <ClInclude Include="그리디 알고리즘\1114.hpp">
+      <Filter>그리디 알고리즘</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
