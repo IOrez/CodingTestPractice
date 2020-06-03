@@ -49,6 +49,9 @@
     <Filter Include="백트래킹">
       <UniqueIdentifier>{752ec24e-c76e-42ce-b1dd-a2a2483dad41}</UniqueIdentifier>
     </Filter>
+    <Filter Include="LIS">
+      <UniqueIdentifier>{5e999e35-94e2-4d90-98bf-5201c41ef330}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="그리디 알고리즘\1931.hpp">
@@ -380,6 +383,9 @@
     </ClInclude>
     <ClInclude Include="그리디 알고리즘\1114.hpp">
       <Filter>그리디 알고리즘</Filter>
+    </ClInclude>
+    <ClInclude Include="LIS\1365.hpp">
+      <Filter>LIS</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

@@ -151,6 +151,7 @@
     <ClInclude Include="DFS_BFS\2667.hpp" />
     <ClInclude Include="DFS_BFS\4963.hpp" />
     <ClInclude Include="DFS_BFS\7576.hpp" />
+    <ClInclude Include="LIS\1365.hpp" />
     <ClInclude Include="구현\2839.hpp" />
     <ClInclude Include="그리디 알고리즘\1041.hpp" />
     <ClInclude Include="그리디 알고리즘\1049.hpp" />
