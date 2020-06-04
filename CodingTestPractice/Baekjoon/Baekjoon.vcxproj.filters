@@ -387,5 +387,8 @@
     <ClInclude Include="LIS\1365.hpp">
       <Filter>LIS</Filter>
     </ClInclude>
+    <ClInclude Include="정렬\1181.hpp">
+      <Filter>정렬</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
