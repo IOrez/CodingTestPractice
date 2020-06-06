@@ -52,6 +52,9 @@
     <Filter Include="LIS">
       <UniqueIdentifier>{5e999e35-94e2-4d90-98bf-5201c41ef330}</UniqueIdentifier>
     </Filter>
+    <Filter Include="수학">
+      <UniqueIdentifier>{1ec5532a-9e08-4fc4-9e85-33eff6c42998}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="그리디 알고리즘\1931.hpp">
@@ -392,6 +395,9 @@
     </ClInclude>
     <ClInclude Include="백트래킹\9663.hpp">
       <Filter>백트래킹</Filter>
+    </ClInclude>
+    <ClInclude Include="수학\1016.hpp">
+      <Filter>수학</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
