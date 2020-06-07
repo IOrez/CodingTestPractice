@@ -55,6 +55,9 @@
     <Filter Include="수학">
       <UniqueIdentifier>{1ec5532a-9e08-4fc4-9e85-33eff6c42998}</UniqueIdentifier>
     </Filter>
+    <Filter Include="기하알고리즘">
+      <UniqueIdentifier>{392168dd-3bba-450f-a594-4e670685ac2a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="그리디 알고리즘\1931.hpp">
@@ -398,6 +401,9 @@
     </ClInclude>
     <ClInclude Include="수학\1016.hpp">
       <Filter>수학</Filter>
+    </ClInclude>
+    <ClInclude Include="기하알고리즘\1002.hpp">
+      <Filter>기하알고리즘</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
