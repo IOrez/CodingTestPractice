@@ -1,1 +1,1 @@
-#include "../Baekjoon/기하알고리즘/1002.hpp"
+#include "../Baekjoon/다이나믹 프로그래밍/2163.hpp"
