@@ -1,1 +1,1 @@
-#include "../Baekjoon/플로이드 와샬 알고리즘/11404.hpp"
+#include "../Baekjoon/수학/1000.hpp"

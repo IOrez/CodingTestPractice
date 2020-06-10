@@ -411,5 +411,8 @@
     <ClInclude Include="플로이드 와샬 알고리즘\11404.hpp">
       <Filter>플로이드 와샬 알고리즘</Filter>
     </ClInclude>
+    <ClInclude Include="수학\1000.hpp">
+      <Filter>수학</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
