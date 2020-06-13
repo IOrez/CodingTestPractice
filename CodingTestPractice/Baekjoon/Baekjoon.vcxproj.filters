@@ -420,5 +420,8 @@
     <ClInclude Include="스택\9012.hpp">
       <Filter>스택</Filter>
     </ClInclude>
+    <ClInclude Include="그리디 알고리즘\1439.hpp">
+      <Filter>그리디 알고리즘</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
