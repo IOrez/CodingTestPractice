@@ -417,5 +417,8 @@
     <ClInclude Include="DFS_BFS\1012.hpp">
       <Filter>DFS_BFS</Filter>
     </ClInclude>
+    <ClInclude Include="스택\9012.hpp">
+      <Filter>스택</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
