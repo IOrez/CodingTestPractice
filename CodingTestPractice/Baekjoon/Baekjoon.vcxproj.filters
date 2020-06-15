@@ -423,5 +423,8 @@
     <ClInclude Include="그리디 알고리즘\1439.hpp">
       <Filter>그리디 알고리즘</Filter>
     </ClInclude>
+    <ClInclude Include="트리\1068.hpp">
+      <Filter>트리</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
