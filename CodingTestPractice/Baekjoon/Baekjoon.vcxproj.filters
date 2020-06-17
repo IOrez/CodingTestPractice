@@ -58,6 +58,9 @@
     <Filter Include="기하알고리즘">
       <UniqueIdentifier>{392168dd-3bba-450f-a594-4e670685ac2a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="이분탐색">
+      <UniqueIdentifier>{451dc251-3c9d-4660-b5e0-a79cd59bff18}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="그리디 알고리즘\1931.hpp">
@@ -428,6 +431,9 @@
     </ClInclude>
     <ClInclude Include="LIS\11055.hpp">
       <Filter>LIS</Filter>
+    </ClInclude>
+    <ClInclude Include="이분탐색\1920.hpp">
+      <Filter>이분탐색</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

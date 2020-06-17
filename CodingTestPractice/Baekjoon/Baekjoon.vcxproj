@@ -252,6 +252,7 @@
     <ClInclude Include="수학\1016.hpp" />
     <ClInclude Include="스택\10828.hpp" />
     <ClInclude Include="스택\9012.hpp" />
+    <ClInclude Include="이분탐색\1920.hpp" />
     <ClInclude Include="자료구조\1620.hpp" />
     <ClInclude Include="정렬\10989.hpp" />
     <ClInclude Include="정렬\11650.hpp" />
