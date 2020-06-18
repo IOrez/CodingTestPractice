@@ -61,6 +61,9 @@
     <Filter Include="이분탐색">
       <UniqueIdentifier>{451dc251-3c9d-4660-b5e0-a79cd59bff18}</UniqueIdentifier>
     </Filter>
+    <Filter Include="재귀호출">
+      <UniqueIdentifier>{0e83045d-c5a0-4073-a755-1fda4244143c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="그리디 알고리즘\1931.hpp">
@@ -434,6 +437,9 @@
     </ClInclude>
     <ClInclude Include="이분탐색\1920.hpp">
       <Filter>이분탐색</Filter>
+    </ClInclude>
+    <ClInclude Include="재귀호출\1914.hpp">
+      <Filter>재귀호출</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
