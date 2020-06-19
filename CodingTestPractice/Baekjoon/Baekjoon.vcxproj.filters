@@ -441,5 +441,8 @@
     <ClInclude Include="재귀호출\1914.hpp">
       <Filter>재귀호출</Filter>
     </ClInclude>
+    <ClInclude Include="수학\1978.hpp">
+      <Filter>수학</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

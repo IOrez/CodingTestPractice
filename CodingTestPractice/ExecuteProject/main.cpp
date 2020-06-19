@@ -1,1 +1,1 @@
-#include "../Baekjoon/재귀호출/1914.hpp"
+#include "../Baekjoon/수학/1978.hpp"
