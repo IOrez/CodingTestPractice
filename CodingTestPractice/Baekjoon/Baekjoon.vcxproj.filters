@@ -444,5 +444,8 @@
     <ClInclude Include="수학\1978.hpp">
       <Filter>수학</Filter>
     </ClInclude>
+    <ClInclude Include="수학\3053.hpp">
+      <Filter>수학</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

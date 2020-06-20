@@ -1,1 +1,1 @@
-#include "../Baekjoon/수학/1978.hpp"
+#include "../Baekjoon/수학/3053.hpp"
