@@ -447,5 +447,8 @@
     <ClInclude Include="수학\3053.hpp">
       <Filter>수학</Filter>
     </ClInclude>
+    <ClInclude Include="문자열 처리\2941.hpp">
+      <Filter>문자열 처리</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

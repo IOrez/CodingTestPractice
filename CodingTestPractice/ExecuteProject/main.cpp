@@ -1,1 +1,1 @@
-#include "../Baekjoon/수학/3053.hpp"
+#include "../Baekjoon/문자열 처리/2941.hpp"
