@@ -450,5 +450,8 @@
     <ClInclude Include="문자열 처리\2941.hpp">
       <Filter>문자열 처리</Filter>
     </ClInclude>
+    <ClInclude Include="스택\10799.hpp">
+      <Filter>스택</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
