@@ -64,6 +64,9 @@
     <Filter Include="재귀호출">
       <UniqueIdentifier>{0e83045d-c5a0-4073-a755-1fda4244143c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="그래프이론">
+      <UniqueIdentifier>{5b66d0c1-3f79-4a3d-9d72-d84dfa838c6a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="그리디 알고리즘\1931.hpp">
@@ -452,6 +455,9 @@
     </ClInclude>
     <ClInclude Include="스택\10799.hpp">
       <Filter>스택</Filter>
+    </ClInclude>
+    <ClInclude Include="그래프이론\5567.hpp">
+      <Filter>그래프이론</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
