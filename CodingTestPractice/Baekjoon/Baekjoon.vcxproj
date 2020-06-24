@@ -253,6 +253,7 @@
     <ClInclude Include="수학\1000.hpp" />
     <ClInclude Include="수학\1016.hpp" />
     <ClInclude Include="수학\1978.hpp" />
+    <ClInclude Include="수학\2869.hpp" />
     <ClInclude Include="수학\3053.hpp" />
     <ClInclude Include="스택\10799.hpp" />
     <ClInclude Include="스택\10828.hpp" />
