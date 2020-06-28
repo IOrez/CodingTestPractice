@@ -474,5 +474,8 @@
     <ClInclude Include="구현\4948.hpp">
       <Filter>구현</Filter>
     </ClInclude>
+    <ClInclude Include="수학\1712.hpp">
+      <Filter>수학</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
