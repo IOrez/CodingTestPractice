@@ -67,6 +67,9 @@
     <Filter Include="그래프이론">
       <UniqueIdentifier>{5b66d0c1-3f79-4a3d-9d72-d84dfa838c6a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="입문용">
+      <UniqueIdentifier>{c67052ee-4d17-41f3-969a-1ffd46443ff9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="그리디 알고리즘\1931.hpp">
@@ -476,6 +479,9 @@
     </ClInclude>
     <ClInclude Include="수학\1712.hpp">
       <Filter>수학</Filter>
+    </ClInclude>
+    <ClInclude Include="입문용\4673.hpp">
+      <Filter>입문용</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
