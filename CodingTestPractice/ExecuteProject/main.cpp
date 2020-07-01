@@ -1,1 +1,1 @@
-#include "../Baekjoon/입문용/4673.hpp"
+#include "../Baekjoon/정렬/1427.hpp"

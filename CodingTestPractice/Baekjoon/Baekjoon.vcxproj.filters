@@ -483,5 +483,8 @@
     <ClInclude Include="입문용\4673.hpp">
       <Filter>입문용</Filter>
     </ClInclude>
+    <ClInclude Include="정렬\1427.hpp">
+      <Filter>정렬</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
