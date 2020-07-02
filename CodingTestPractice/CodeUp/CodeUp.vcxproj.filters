@@ -476,5 +476,8 @@
     <ClInclude Include="스택\2016.hpp">
       <Filter>스택</Filter>
     </ClInclude>
+    <ClInclude Include="백트래킹\2651.hpp">
+      <Filter>백트래킹</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

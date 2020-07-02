@@ -256,6 +256,7 @@
     <ClInclude Include="동적계획법\2640.hpp" />
     <ClInclude Include="백트래킹\2608.hpp" />
     <ClInclude Include="백트래킹\2641.hpp" />
+    <ClInclude Include="백트래킹\2651.hpp" />
     <ClInclude Include="쉬워 보이지만 한 번에 맞히기 어려운 문제\2019.hpp" />
     <ClInclude Include="쉬워 보이지만 한 번에 맞히기 어려운 문제\2021.hpp" />
     <ClInclude Include="스택\1402.hpp" />

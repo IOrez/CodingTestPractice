@@ -1,1 +1,1 @@
-#include "../Baekjoon/Á¤·Ä/10814.hpp"
+#include "../Codeforces/Problems/110A.hpp"
