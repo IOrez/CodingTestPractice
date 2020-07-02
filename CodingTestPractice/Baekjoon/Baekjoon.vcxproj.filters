@@ -486,5 +486,8 @@
     <ClInclude Include="정렬\1427.hpp">
       <Filter>정렬</Filter>
     </ClInclude>
+    <ClInclude Include="정렬\10814.hpp">
+      <Filter>정렬</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
