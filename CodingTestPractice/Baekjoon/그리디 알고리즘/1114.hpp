@@ -1,56 +1,51 @@
 #include <iostream>
-#include <vector>
-#include <queue>
-#include <algorithm>
 #include <climits>
+#include <algorithm>
 using namespace std;
 
+int L, K, C, Max, R;
+int table[10002];
 
-priority_queue<pair<long long, long long>> pq;
+void sol(int s, int e,int c)
+{
+	if (s > e||c>=C)return;
+	int mid = (s + e) / 2;
+	int dif = 0, i = K;
+	bool check = true;
+	int sMax = -1;
+	for (; i >= 1; --i)
+	{
+		dif += table[i + 1] - table[i];
+		if (dif > table[K + 1] - mid)
+		{
+			check = false;
+			break;
+		}
+		sMax = max({ sMax,table[K+1] - table[i] });
+	}
+	i += 1;
+	if (check)
+	{
+		sMax = max({ sMax,table[i] - table[0] });
+		if (sMax <= Max && R>table[i])
+		{
+			Max = sMax;
+			R = table[i];
+		}
+		sol(mid + 1, e,c+1);
+	}
+	else sol(0, mid - 1,c);
+}
 
 int main()
 {
-	ios_base::sync_with_stdio(false); cin.tie(NULL);
-	int L, K, C;
-	int pos = INT_MAX, maxLength = -1;
+	ios_base::sync_with_stdio(false); cin.tie(nullptr);
 	cin >> L >> K >> C;
-	vector<float> point(K+2);
-	point[0] = 0;
-	point[K + 1] = L;
-	for (int i = 1; i <= K; ++i)cin >> point[i];
-	sort(point.begin(), point.end());
-	pq.push({ L,0 });
-	while (C--)
-	{
-		auto Length = pq.top().first;
-		auto sPoint = -pq.top().second;
-		auto ePoint = sPoint + Length;
-		pq.pop();
-		float val = (float)(sPoint + ePoint) / 2;
-		auto iter = lower_bound(point.begin(), point.end(),val );
-		if (ePoint == *iter) 
-		{
-			C++;
-			if (maxLength < Length)maxLength = Length;
-		}
-		else
-		{
-			int p1 = *(iter - 1);
-			int p2 = *iter;
-			int cutPoint = p2;
-			if (p1 != *point.begin())
-			{
-				int dis1 = abs((p1 - sPoint) - (ePoint - p1));
-				int dis2 = abs((p2 - sPoint) - (ePoint - p2));
-				if (dis1 <= dis2)
-					cutPoint = p1;
-			}
-			pq.push({ cutPoint - sPoint,-cutPoint }); 
-			pq.push({ ePoint - cutPoint ,-cutPoint });
-			if (pos > cutPoint)pos = cutPoint;
-		}
-	}
-	if (maxLength < pq.top().first)maxLength = pq.top().first;
-	cout << maxLength << " " << pos << '\n';
-
+	Max = INT_MAX, R = INT_MAX;
+	table[0] = 0; table[K + 1] = L;
+	sort(table, table + K + 1);
+	for (int i = 1; i <= K; ++i)cin >> table[i];
+	sol(0, L,0);
+	cout << Max << " " << R << '\n';
+	return 0;
 }

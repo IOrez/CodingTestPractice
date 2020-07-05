@@ -239,6 +239,7 @@
     <ClInclude Include="덱\10866.hpp" />
     <ClInclude Include="문자열 처리\10809.hpp" />
     <ClInclude Include="문자열 처리\1152.hpp" />
+    <ClInclude Include="문자열 처리\1157.hpp" />
     <ClInclude Include="문자열 처리\2941.hpp" />
     <ClInclude Include="백트래킹\2580.hpp" />
     <ClInclude Include="백트래킹\9663.hpp" />
