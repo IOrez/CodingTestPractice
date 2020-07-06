@@ -485,5 +485,8 @@
     <ClInclude Include="동적계획법\2698.hpp">
       <Filter>동적계획법</Filter>
     </ClInclude>
+    <ClInclude Include="인덱스트리\3211.hpp">
+      <Filter>인덱스트리</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
