@@ -488,5 +488,8 @@
     <ClInclude Include="인덱스트리\3211.hpp">
       <Filter>인덱스트리</Filter>
     </ClInclude>
+    <ClInclude Include="관리자 추천 문제\1278.hpp">
+      <Filter>관리자 추천 문제</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
