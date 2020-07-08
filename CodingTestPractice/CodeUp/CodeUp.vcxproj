@@ -158,6 +158,7 @@
     <ClInclude Include="관리자 추천 문제\1166.hpp" />
     <ClInclude Include="관리자 추천 문제\1173.hpp" />
     <ClInclude Include="관리자 추천 문제\1278.hpp" />
+    <ClInclude Include="관리자 추천 문제\1286.hpp" />
     <ClInclude Include="구조체 연습\1805.hpp" />
     <ClInclude Include="구조체 연습\3004.hpp" />
     <ClInclude Include="구조체 연습\3015.hpp" />
