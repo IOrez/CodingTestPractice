@@ -494,5 +494,8 @@
     <ClInclude Include="관리자 추천 문제\1286.hpp">
       <Filter>관리자 추천 문제</Filter>
     </ClInclude>
+    <ClInclude Include="쉬워 보이지만 한 번에 맞히기 어려운 문제\2023.hpp">
+      <Filter>쉬워 보이지만 한 번에 맞히기 어려운 문제</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
