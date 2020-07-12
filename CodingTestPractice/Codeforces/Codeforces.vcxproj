@@ -154,6 +154,7 @@
     <ClInclude Include="Problems\116A.hpp" />
     <ClInclude Include="Problems\118A.hpp" />
     <ClInclude Include="Problems\122A.hpp" />
+    <ClInclude Include="Problems\131A.hpp" />
     <ClInclude Include="Problems\133A.hpp" />
     <ClInclude Include="Problems\1375A.hpp" />
     <ClInclude Include="Problems\1375B.hpp" />

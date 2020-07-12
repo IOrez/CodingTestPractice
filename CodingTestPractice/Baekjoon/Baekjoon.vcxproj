@@ -274,6 +274,7 @@
     <ClInclude Include="입문용\4673.hpp" />
     <ClInclude Include="자료구조\1620.hpp" />
     <ClInclude Include="재귀호출\1914.hpp" />
+    <ClInclude Include="정렬\1026.hpp" />
     <ClInclude Include="정렬\10814.hpp" />
     <ClInclude Include="정렬\10989.hpp" />
     <ClInclude Include="정렬\11004.hpp" />

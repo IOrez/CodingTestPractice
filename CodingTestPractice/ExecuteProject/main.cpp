@@ -1,1 +1,1 @@
-#include "../Baekjoon/기하알고리즘/2162.hpp"
+#include "../Codeforces/Problems/131A.hpp"
