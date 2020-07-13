@@ -70,6 +70,9 @@
     <Filter Include="입문용">
       <UniqueIdentifier>{c67052ee-4d17-41f3-969a-1ffd46443ff9}</UniqueIdentifier>
     </Filter>
+    <Filter Include="확률">
+      <UniqueIdentifier>{b903f92f-8143-40fd-b965-403b3953ed3c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="그리디 알고리즘\1931.hpp">
@@ -518,6 +521,9 @@
     </ClInclude>
     <ClInclude Include="정렬\1026.hpp">
       <Filter>정렬</Filter>
+    </ClInclude>
+    <ClInclude Include="확률\13251.hpp">
+      <Filter>확률</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

@@ -503,5 +503,8 @@
     <ClInclude Include="재귀 함수\1920.hpp">
       <Filter>재귀 함수</Filter>
     </ClInclude>
+    <ClInclude Include="탐색기반설계\2650.hpp">
+      <Filter>탐색기반설계</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

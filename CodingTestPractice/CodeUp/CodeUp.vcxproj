@@ -289,6 +289,7 @@
     <ClInclude Include="탐색기반설계\2625.hpp" />
     <ClInclude Include="탐색기반설계\2626.hpp" />
     <ClInclude Include="탐색기반설계\2628.hpp" />
+    <ClInclude Include="탐색기반설계\2650.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
