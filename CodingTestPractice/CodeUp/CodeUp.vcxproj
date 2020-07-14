@@ -155,6 +155,7 @@
     <ClInclude Include="관계기반설계\1905.hpp" />
     <ClInclude Include="관계기반설계\1915.hpp" />
     <ClInclude Include="관계기반설계\1916.hpp" />
+    <ClInclude Include="관계기반설계\1925.hpp" />
     <ClInclude Include="관리자 추천 문제\1166.hpp" />
     <ClInclude Include="관리자 추천 문제\1173.hpp" />
     <ClInclude Include="관리자 추천 문제\1278.hpp" />

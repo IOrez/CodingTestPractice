@@ -506,5 +506,8 @@
     <ClInclude Include="탐색기반설계\2650.hpp">
       <Filter>탐색기반설계</Filter>
     </ClInclude>
+    <ClInclude Include="관계기반설계\1925.hpp">
+      <Filter>관계기반설계</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

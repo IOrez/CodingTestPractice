@@ -162,6 +162,9 @@
     <ClInclude Include="Problems\136A.hpp">
       <Filter>Problems</Filter>
     </ClInclude>
+    <ClInclude Include="Problems\580A.hpp">
+      <Filter>Problems</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Problems\546A.hpp">
