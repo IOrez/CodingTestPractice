@@ -528,5 +528,14 @@
     <ClInclude Include="DFS_BFS\1707.hpp">
       <Filter>DFS_BFS</Filter>
     </ClInclude>
+    <ClInclude Include="브루트 포스\2596.hpp">
+      <Filter>브루트 포스</Filter>
+    </ClInclude>
+    <ClInclude Include="수학\14490.hpp">
+      <Filter>수학</Filter>
+    </ClInclude>
+    <ClInclude Include="스택\2504.hpp">
+      <Filter>스택</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
