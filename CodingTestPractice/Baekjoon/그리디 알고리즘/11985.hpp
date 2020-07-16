@@ -19,7 +19,7 @@ long long solution(int s, int e)
 		Max = max((long long)Max, v[s + i]);
 		Min = min((long long)Min, v[s + i]);
 		box = 1LL * (i + 1) * (Max - Min) + K;
-		*pVal = min(*pVal,box + solution(s + i + 1, e));
+		*pVal = min(*pVal, box + solution(s + i + 1, e));
 	}
 	return *pVal;
 }

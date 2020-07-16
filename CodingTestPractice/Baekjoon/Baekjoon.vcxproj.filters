@@ -537,5 +537,11 @@
     <ClInclude Include="스택\2504.hpp">
       <Filter>스택</Filter>
     </ClInclude>
+    <ClInclude Include="그리디 알고리즘\11985.hpp">
+      <Filter>그리디 알고리즘</Filter>
+    </ClInclude>
+    <ClInclude Include="수학\10164.hpp">
+      <Filter>수학</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
