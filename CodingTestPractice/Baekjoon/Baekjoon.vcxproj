@@ -158,6 +158,7 @@
     <ClInclude Include="LIS\1365.hpp" />
     <ClInclude Include="구현\2839.hpp" />
     <ClInclude Include="구현\4948.hpp" />
+    <ClInclude Include="그래프이론\11812.hpp" />
     <ClInclude Include="그래프이론\5567.hpp" />
     <ClInclude Include="그리디 알고리즘\1041.hpp" />
     <ClInclude Include="그리디 알고리즘\1049.hpp" />

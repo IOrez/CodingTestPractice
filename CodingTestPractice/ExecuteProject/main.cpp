@@ -1,37 +1,55 @@
 #include <iostream>
+#include <vector>
 #include <algorithm>
 using namespace std;
 
-long long N, M, K;
-long long DP[21001];
-long long v[20001];
-long long solution(int s, int e)
-{
-	long long* pVal = &DP[s];
-	int size, Max = 0, Min = 0x7fffffff;
-	long long box;
-	if (s >= e)return 0;
-	if (*pVal != -1)return *pVal;
-	*pVal = 0x7fffffffffffffff;
-	size = M < e - s + 1 ? M : e - s + 1;
-	for (int i = 0; i < size; ++i)
-	{
-		Max = max((long long)Max, v[s + i]);
-		Min = min((long long)Min, v[s + i]);
-		box = 1LL * (i + 1) * (Max - Min) + K;
-		*pVal = min(*pVal,box + solution(s + i + 1, e));
-	}
-	return *pVal;
-}
+int N, K, S;
+
 int main()
 {
 	ios_base::sync_with_stdio(false); cin.tie(nullptr);
-	cin >> N >> M >> K;
+	cin >> N >> K >> S;
+	vector<pair<int, int>> table(N);
 	for (int i = 0; i < N; ++i)
+		cin >> table[i].first >> table[i].second;
+
+	sort(table.begin(), table.end());
+	long long sum = 0, firstCarryDis = 0;
+	int cnt = 0;
+	for (int i = 0; table[i].first < S&&i<N;)
 	{
-		cin >> v[i];
-		DP[i] = -1;
+		if (cnt == 0)firstCarryDis = S - table[i].first;
+		if (K - cnt < table[i].second)
+		{
+			table[i].second -= (K - cnt);
+			sum += firstCarryDis * 2ll;
+			cnt = 0;
+		}
+		else
+		{
+			cnt += table[i].second;
+			++i;
+		}
 	}
-	cout << solution(0, N);
+	sum += firstCarryDis * 2ll;
+	cnt = 0;
+	firstCarryDis = 0;
+	for (int i = N-1; table[i].first > S&&i>=0;)
+	{
+		if (cnt == 0)firstCarryDis = table[i].first - S;
+		if (K - cnt < table[i].second)
+		{
+			table[i].second -= (K - cnt);
+			sum += firstCarryDis * 2ll;
+			cnt = 0;
+		}
+		else
+		{
+			cnt += table[i].second;
+			--i;
+		}
+	}
+	sum += firstCarryDis * 2ll;
+	cout << sum;
 	return 0;
 }
