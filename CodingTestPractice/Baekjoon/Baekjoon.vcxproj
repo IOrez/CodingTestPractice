@@ -144,6 +144,7 @@
     <ClInclude Include="DFS_BFS\1260.hpp" />
     <ClInclude Include="DFS_BFS\13460.hpp" />
     <ClInclude Include="DFS_BFS\1389.hpp" />
+    <ClInclude Include="DFS_BFS\15573.hpp" />
     <ClInclude Include="DFS_BFS\1697.hpp" />
     <ClInclude Include="DFS_BFS\1707.hpp" />
     <ClInclude Include="DFS_BFS\2178.hpp" />
@@ -158,6 +159,7 @@
     <ClInclude Include="LIS\1365.hpp" />
     <ClInclude Include="구현\2839.hpp" />
     <ClInclude Include="구현\4948.hpp" />
+    <ClInclude Include="그래프이론\1162.hpp" />
     <ClInclude Include="그래프이론\11812.hpp" />
     <ClInclude Include="그래프이론\5567.hpp" />
     <ClInclude Include="그리디 알고리즘\1041.hpp" />
@@ -197,6 +199,7 @@
     <ClInclude Include="그리디 알고리즘\2812.hpp" />
     <ClInclude Include="그리디 알고리즘\2873.hpp" />
     <ClInclude Include="그리디 알고리즘\2875.hpp" />
+    <ClInclude Include="그리디 알고리즘\2879.hpp" />
     <ClInclude Include="그리디 알고리즘\3109.hpp" />
     <ClInclude Include="그리디 알고리즘\4796.hpp" />
     <ClInclude Include="그리디 알고리즘\5585.hpp" />
