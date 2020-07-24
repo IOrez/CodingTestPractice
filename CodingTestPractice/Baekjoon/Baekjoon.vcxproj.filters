@@ -579,5 +579,8 @@
     <ClInclude Include="DFS_BFS\1445.hpp">
       <Filter>DFS_BFS</Filter>
     </ClInclude>
+    <ClInclude Include="그리디 알고리즘\6101.hpp">
+      <Filter>그리디 알고리즘</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
