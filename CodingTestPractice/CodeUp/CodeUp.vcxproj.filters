@@ -509,5 +509,8 @@
     <ClInclude Include="관계기반설계\1925.hpp">
       <Filter>관계기반설계</Filter>
     </ClInclude>
+    <ClInclude Include="2019 정올1차 대비\4021.hpp">
+      <Filter>2019 정올1차 대비</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
