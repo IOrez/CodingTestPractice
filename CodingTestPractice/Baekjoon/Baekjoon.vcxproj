@@ -160,6 +160,7 @@
     <ClInclude Include="LIS\1365.hpp" />
     <ClInclude Include="구현\2839.hpp" />
     <ClInclude Include="구현\4948.hpp" />
+    <ClInclude Include="구현\8320.hpp" />
     <ClInclude Include="그래프이론\1162.hpp" />
     <ClInclude Include="그래프이론\11812.hpp" />
     <ClInclude Include="그래프이론\5567.hpp" />
@@ -177,6 +178,7 @@
     <ClInclude Include="그리디 알고리즘\1201.hpp" />
     <ClInclude Include="그리디 알고리즘\1202.hpp" />
     <ClInclude Include="그리디 알고리즘\13305.hpp" />
+    <ClInclude Include="그리디 알고리즘\13702.hpp" />
     <ClInclude Include="그리디 알고리즘\1439.hpp" />
     <ClInclude Include="그리디 알고리즘\1449.hpp" />
     <ClInclude Include="그리디 알고리즘\1507.hpp" />
