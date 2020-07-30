@@ -1,1 +1,1 @@
-#include "../Baekjoon/그래프이론/19535.hpp"
+#include "../Baekjoon/다이나믹 프로그래밍/2225.hpp"
