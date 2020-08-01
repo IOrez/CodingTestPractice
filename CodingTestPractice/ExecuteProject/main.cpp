@@ -1,1 +1,1 @@
-#include "../Baekjoon/다이나믹 프로그래밍/1309.hpp"
+#include "../Codeforces/Problems/1030A.hpp"
