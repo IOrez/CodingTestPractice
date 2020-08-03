@@ -308,6 +308,7 @@
     <ClInclude Include="정렬\10989.hpp" />
     <ClInclude Include="정렬\11004.hpp" />
     <ClInclude Include="정렬\11650.hpp" />
+    <ClInclude Include="정렬\11651.hpp" />
     <ClInclude Include="정렬\1181.hpp" />
     <ClInclude Include="정렬\1427.hpp" />
     <ClInclude Include="출력\11718.hpp" />
