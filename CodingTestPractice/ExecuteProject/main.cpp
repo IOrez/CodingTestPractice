@@ -1,1 +1,1 @@
-#include "../Baekjoon/자료구조/9375.hpp"
+#include "../Baekjoon/이분탐색/10815.hpp"
