@@ -267,6 +267,7 @@
     <ClInclude Include="문자열 처리\10809.hpp" />
     <ClInclude Include="문자열 처리\1152.hpp" />
     <ClInclude Include="문자열 처리\1157.hpp" />
+    <ClInclude Include="문자열 처리\1316.hpp" />
     <ClInclude Include="문자열 처리\2908.hpp" />
     <ClInclude Include="문자열 처리\2941.hpp" />
     <ClInclude Include="백트래킹\2580.hpp" />
