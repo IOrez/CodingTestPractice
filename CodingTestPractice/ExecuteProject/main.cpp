@@ -1,1 +1,1 @@
-#include "../Baekjoon/재귀호출/1074.hpp"
+#include "../Baekjoon/다이나믹 프로그래밍/11066.hpp"
