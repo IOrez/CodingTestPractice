@@ -291,6 +291,7 @@
     <ClInclude Include="수학\1016.hpp" />
     <ClInclude Include="수학\10164.hpp" />
     <ClInclude Include="수학\14490.hpp" />
+    <ClInclude Include="수학\1475.hpp" />
     <ClInclude Include="수학\1712.hpp" />
     <ClInclude Include="수학\1978.hpp" />
     <ClInclude Include="수학\2869.hpp" />
