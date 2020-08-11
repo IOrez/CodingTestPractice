@@ -269,6 +269,7 @@
     <ClInclude Include="문자열 처리\1152.hpp" />
     <ClInclude Include="문자열 처리\1157.hpp" />
     <ClInclude Include="문자열 처리\1316.hpp" />
+    <ClInclude Include="문자열 처리\17413.hpp" />
     <ClInclude Include="문자열 처리\2908.hpp" />
     <ClInclude Include="문자열 처리\2941.hpp" />
     <ClInclude Include="백트래킹\2580.hpp" />
@@ -290,6 +291,7 @@
     <ClInclude Include="수학\1000.hpp" />
     <ClInclude Include="수학\1016.hpp" />
     <ClInclude Include="수학\10164.hpp" />
+    <ClInclude Include="수학\11966.hpp" />
     <ClInclude Include="수학\14490.hpp" />
     <ClInclude Include="수학\1475.hpp" />
     <ClInclude Include="수학\1712.hpp" />
