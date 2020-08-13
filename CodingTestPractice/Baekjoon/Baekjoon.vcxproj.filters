@@ -648,5 +648,8 @@
     <ClInclude Include="그리디 알고리즘\17162.hpp">
       <Filter>그리디 알고리즘</Filter>
     </ClInclude>
+    <ClInclude Include="수학\15997.hpp">
+      <Filter>수학</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
