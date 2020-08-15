@@ -2,13 +2,17 @@
 #include <vector>
 #include <queue>
 #include <string>
+#include <tuple>
 #define WALL		-1
 #define EMPTY		 0
+
+#pragma warning(disable:4996)
+
 using namespace std;
 int N, M, PlayerNumber;
 
-queue<pair<int, int>> que[10];
-queue<pair<int, int>> eq;
+queue<tuple<int, int,int>> que[10];
+bool flag;
 vector<int>	s(10);
 string input;
 int table[1000][1000];
@@ -19,74 +23,57 @@ bool isInRange(int y, int x) {
 	return 0 <= y && y < N && 0 <= x && x < M;
 }
 
-void dfs(int y, int x, int& cnt,int player) {
-	if (!isInRange(y, x)||cnt==0)return;
-	else if (table[y][x] != EMPTY)return;
-	else if (table[y][x] == EMPTY||table[y][x]==player) {
-		if (table[y][x] == EMPTY) {
-			cnt--;
-			table[y][x] = player;
-			eq.push({ y,x });
-		}
-		for (int i = 0; i < 4 && cnt != 0; ++i) {
-			int yy = y + dy[i];
-			int xx = x + dx[i];
-			dfs(yy, xx,cnt, player);
-		}
+void func(int y, int x, int step,int player,queue<tuple<int,int,int>>& eq) {
+	for (int i = 0; i < 4; ++i) {
+		int yy = y + dy[i];
+		int xx = x + dx[i];
+		if (!isInRange(yy, xx))continue;
+		if (table[yy][xx] != EMPTY)continue;
+		table[yy][xx] = player;
+		cnt[player]++;
+		que[player].push({ yy,xx,s[player] });
+		eq.push({ yy,xx,step - 1 });
+		flag = true;
 	}
 }
 void sol() {
 	while (true) {
-		bool check = true;
-		for (int i = 1; i <= PlayerNumber && check; ++i)
-			check = que[i].empty();
-		if (check)break;
+		flag = false;
 		for (int i = 1; i <= PlayerNumber; ++i) {
-			if (que[i].empty())continue;
-			while (!que[i].empty()) {
-				auto& [posy, posx] = que[i].front();
-				que[i].pop();
-				for (int t = 0; t < 4; ++ t) {
-					int yy = posy + dy[t];
-					int xx = posx + dx[t];
-					int step = s[i];
-					dfs(yy, xx, step, i);
-				}
-			}
+			auto eq = que[i];
+			auto preSize = que[i].size();
 			while (!eq.empty()) {
-				que[i].push(eq.front());
+				auto [posy, posx,step] = eq.front();
 				eq.pop();
+				if (step == s[i])que[i].pop();
+				if (step == 0)continue;
+				func(posy, posx, step, i, eq);
 			}
 		}
+		if (!flag)break;
 	}
-	for (int i = 0; i < N; ++i)
-		for (int j = 0; j < M; ++j)
-			if (table[i][j] == WALL || table[i][j] == EMPTY)continue;
-			else cnt[table[i][j]]++;
-
 	for (int i = 1; i <= PlayerNumber; ++i)
-		cout << cnt[i] << " ";
+		printf("%d ", cnt[i]);
 }
 int main(){
-	ios_base::sync_with_stdio(false); cin.tie(nullptr);
-	cin >> N >> M >> PlayerNumber;
+	scanf("%d %d %d", &N, &M, &PlayerNumber);
 	for (int i = 1; i <= PlayerNumber; ++i)
-		cin >> s[i];
-	cin.ignore();
-	int WallCnt = 0;
+		scanf("%d", &s[i]);
+	getchar();
 	for (int i = 0; i < N; ++i){
-		getline(cin, input);
 		for (int j = 0; j < M; ++j) {
-			if (input[j] == '#')table[i][j] = WALL;
-			else if (input[j] == '.')table[i][j] = EMPTY;
+			scanf("%1c", &table[i][j]);
+			if (table[i][j] == '#')table[i][j] = WALL;
+			else if (table[i][j] == '.')table[i][j] = EMPTY;
 			else {
-				int player = input[j] - '0';
-				que[player].push({ i,j });
+				int player = table[i][j] - '0';
+				que[player].push({ i,j,s[player] });
+				cnt[player]++;
 				table[i][j] = player;
 			}
 		}
+		getchar();
 	}
-
 	sol();
 	return 0;
 }
