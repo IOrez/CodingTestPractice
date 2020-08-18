@@ -73,6 +73,9 @@
     <Filter Include="확률">
       <UniqueIdentifier>{b903f92f-8143-40fd-b965-403b3953ed3c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="탐색">
+      <UniqueIdentifier>{262ebfa7-eb7c-413e-84cf-cccb783de442}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="그리디 알고리즘\1931.hpp">
@@ -659,6 +662,9 @@
     </ClInclude>
     <ClInclude Include="LIS\2568.hpp">
       <Filter>LIS</Filter>
+    </ClInclude>
+    <ClInclude Include="탐색\1100.hpp">
+      <Filter>탐색</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
