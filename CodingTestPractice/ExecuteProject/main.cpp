@@ -1,1 +1,1 @@
-#include "../Baekjoon/DFS_BFS/14502.hpp"
+#include "../Baekjoon/세그먼트트리/2042.hpp"
