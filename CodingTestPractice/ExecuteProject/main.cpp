@@ -1,1 +1,1 @@
-#include "../Baekjoon/세그먼트트리/2042.hpp"
+#include "../Baekjoon/분할정복/2447.hpp"

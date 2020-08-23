@@ -280,6 +280,7 @@
     <ClInclude Include="문자열 처리\2941.hpp" />
     <ClInclude Include="백트래킹\2580.hpp" />
     <ClInclude Include="백트래킹\9663.hpp" />
+    <ClInclude Include="분할정복\2447.hpp" />
     <ClInclude Include="브루트 포스\1018.hpp" />
     <ClInclude Include="브루트 포스\1065.hpp" />
     <ClInclude Include="브루트 포스\1213.hpp" />
