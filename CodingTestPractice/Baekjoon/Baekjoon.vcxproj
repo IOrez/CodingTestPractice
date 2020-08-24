@@ -294,6 +294,7 @@
     <ClInclude Include="브루트 포스\2309.hpp" />
     <ClInclude Include="브루트 포스\2596.hpp" />
     <ClInclude Include="브루트 포스\2661.hpp" />
+    <ClInclude Include="브루트 포스\2798.hpp" />
     <ClInclude Include="브루트 포스\6603.hpp" />
     <ClInclude Include="세그먼트트리\2042.hpp" />
     <ClInclude Include="수학\1000.hpp" />
