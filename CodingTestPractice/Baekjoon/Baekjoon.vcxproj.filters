@@ -693,5 +693,8 @@
     <ClInclude Include="브루트 포스\2798.hpp">
       <Filter>브루트 포스</Filter>
     </ClInclude>
+    <ClInclude Include="기하알고리즘\1708.hpp">
+      <Filter>기하알고리즘</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
