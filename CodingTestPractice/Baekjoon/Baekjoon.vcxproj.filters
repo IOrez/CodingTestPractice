@@ -705,5 +705,8 @@
     <ClInclude Include="그리디 알고리즘\1339.hpp">
       <Filter>그리디 알고리즘</Filter>
     </ClInclude>
+    <ClInclude Include="자료구조\1158.hpp">
+      <Filter>자료구조</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
