@@ -708,5 +708,8 @@
     <ClInclude Include="자료구조\1158.hpp">
       <Filter>자료구조</Filter>
     </ClInclude>
+    <ClInclude Include="기하알고리즘\11758.hpp">
+      <Filter>기하알고리즘</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
