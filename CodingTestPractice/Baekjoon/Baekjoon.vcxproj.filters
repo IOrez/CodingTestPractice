@@ -711,5 +711,8 @@
     <ClInclude Include="기하알고리즘\11758.hpp">
       <Filter>기하알고리즘</Filter>
     </ClInclude>
+    <ClInclude Include="이분탐색\1654.hpp">
+      <Filter>이분탐색</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
