@@ -1,1 +1,1 @@
-#include "../Baekjoon/Á¶ÇÕ·Ð/11050.hpp"
+#include "../Baekjoon/DFS_BFS/7569.hpp"

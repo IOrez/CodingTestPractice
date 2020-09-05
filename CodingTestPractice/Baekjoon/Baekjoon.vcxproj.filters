@@ -726,5 +726,8 @@
     <ClInclude Include="조합론\11050.hpp">
       <Filter>조합론</Filter>
     </ClInclude>
+    <ClInclude Include="DFS_BFS\7569.hpp">
+      <Filter>DFS_BFS</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
