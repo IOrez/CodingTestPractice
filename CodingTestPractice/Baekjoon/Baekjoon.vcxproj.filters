@@ -729,5 +729,8 @@
     <ClInclude Include="DFS_BFS\7569.hpp">
       <Filter>DFS_BFS</Filter>
     </ClInclude>
+    <ClInclude Include="문자열 처리\6581.hpp">
+      <Filter>문자열 처리</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
