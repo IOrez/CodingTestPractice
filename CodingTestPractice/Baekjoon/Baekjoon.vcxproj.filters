@@ -732,5 +732,8 @@
     <ClInclude Include="문자열 처리\6581.hpp">
       <Filter>문자열 처리</Filter>
     </ClInclude>
+    <ClInclude Include="문자열 처리\11721.hpp">
+      <Filter>문자열 처리</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
