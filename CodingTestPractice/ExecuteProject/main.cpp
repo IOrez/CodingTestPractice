@@ -1,1 +1,1 @@
-#include "../Baekjoon/다이나믹 프로그래밍/11060.hpp"
+#include "../Baekjoon/수학/1001.hpp"

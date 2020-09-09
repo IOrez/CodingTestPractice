@@ -309,6 +309,7 @@
     <ClInclude Include="브루트 포스\6603.hpp" />
     <ClInclude Include="세그먼트트리\2042.hpp" />
     <ClInclude Include="수학\1000.hpp" />
+    <ClInclude Include="수학\1001.hpp" />
     <ClInclude Include="수학\1016.hpp" />
     <ClInclude Include="수학\10164.hpp" />
     <ClInclude Include="수학\11966.hpp" />
