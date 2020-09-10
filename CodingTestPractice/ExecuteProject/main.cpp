@@ -1,1 +1,1 @@
-#include "../Baekjoon/수학/1001.hpp"
+#include "../Baekjoon/구간 합/11659.hpp"

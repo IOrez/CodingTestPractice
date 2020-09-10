@@ -85,6 +85,9 @@
     <Filter Include="분할정복">
       <UniqueIdentifier>{33ca3e4d-0d34-4660-977b-eb5c27057ff6}</UniqueIdentifier>
     </Filter>
+    <Filter Include="구간 합">
+      <UniqueIdentifier>{c3938c44-186d-494d-931e-1d270c7150e5}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="그리디 알고리즘\1931.hpp">
@@ -740,6 +743,9 @@
     </ClInclude>
     <ClInclude Include="수학\1001.hpp">
       <Filter>수학</Filter>
+    </ClInclude>
+    <ClInclude Include="구간 합\11659.hpp">
+      <Filter>구간 합</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
