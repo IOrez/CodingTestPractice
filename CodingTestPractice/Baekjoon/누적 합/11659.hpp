@@ -10,6 +10,6 @@ int main() {
 	}
 	while (M--) {
 		int i, j; cin >> i >> j;
-		cout << DP[j] - DP[i - 1]<<'\n';
+		cout << DP[j] - DP[i - 1] << '\n';
 	}
 }

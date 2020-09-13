@@ -1,1 +1,1 @@
-#include "../Baekjoon/다이나믹 프로그래밍/1005.hpp"
+#include "../Baekjoon/누적 합/11660.hpp"
