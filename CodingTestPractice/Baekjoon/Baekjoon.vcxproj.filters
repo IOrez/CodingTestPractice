@@ -756,5 +756,8 @@
     <ClInclude Include="누적 합\11660.hpp">
       <Filter>누적 합</Filter>
     </ClInclude>
+    <ClInclude Include="수학\2884.hpp">
+      <Filter>수학</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

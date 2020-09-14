@@ -1,1 +1,1 @@
-#include "../Baekjoon/누적 합/11660.hpp"
+#include "../Baekjoon/수학/2884.hpp"
