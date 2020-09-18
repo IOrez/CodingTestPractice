@@ -765,5 +765,8 @@
     <ClInclude Include="구현\1009.hpp">
       <Filter>구현</Filter>
     </ClInclude>
+    <ClInclude Include="스택\1874.hpp">
+      <Filter>스택</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
