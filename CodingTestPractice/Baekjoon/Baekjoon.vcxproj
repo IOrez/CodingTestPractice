@@ -139,6 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="DFS_BFS\10026.hpp" />
     <ClInclude Include="DFS_BFS\1012.hpp" />
     <ClInclude Include="DFS_BFS\10451.hpp" />
     <ClInclude Include="DFS_BFS\11724.hpp" />

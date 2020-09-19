@@ -768,5 +768,8 @@
     <ClInclude Include="스택\1874.hpp">
       <Filter>스택</Filter>
     </ClInclude>
+    <ClInclude Include="DFS_BFS\10026.hpp">
+      <Filter>DFS_BFS</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
