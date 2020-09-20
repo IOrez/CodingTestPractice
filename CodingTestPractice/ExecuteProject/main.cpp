@@ -1,1 +1,1 @@
-#include "../Baekjoon/DFS_BFS/10026.hpp"
+#include"../Baekjoon/자료구조/1927.hpp"

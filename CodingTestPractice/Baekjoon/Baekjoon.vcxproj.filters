@@ -771,5 +771,8 @@
     <ClInclude Include="DFS_BFS\10026.hpp">
       <Filter>DFS_BFS</Filter>
     </ClInclude>
+    <ClInclude Include="자료구조\1927.hpp">
+      <Filter>자료구조</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
