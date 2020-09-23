@@ -777,5 +777,8 @@
     <ClInclude Include="문자열 처리\11719.hpp">
       <Filter>문자열 처리</Filter>
     </ClInclude>
+    <ClInclude Include="수학\1100.hpp">
+      <Filter>수학</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
