@@ -1,1 +1,1 @@
-#include "../Baekjoon/자료구조/2164.hpp"
+#include "../Baekjoon/다이나믹 프로그래밍/2407.hpp"
