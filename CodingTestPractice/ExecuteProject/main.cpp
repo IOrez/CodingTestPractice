@@ -1,1 +1,1 @@
-#include "../Baekjoon/자료구조/5052.hpp";
+#include "../Baekjoon/기하알고리즘/2166.hpp"

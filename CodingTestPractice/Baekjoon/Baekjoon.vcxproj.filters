@@ -795,5 +795,8 @@
     <ClInclude Include="자료구조\5052.hpp">
       <Filter>자료구조</Filter>
     </ClInclude>
+    <ClInclude Include="기하알고리즘\2166.hpp">
+      <Filter>기하알고리즘</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
