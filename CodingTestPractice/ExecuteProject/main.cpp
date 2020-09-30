@@ -1,1 +1,1 @@
-#include "../Baekjoon/기하알고리즘/2166.hpp"
+#include "../Baekjoon/수학/4344.hpp"
