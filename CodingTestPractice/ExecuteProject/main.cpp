@@ -1,1 +1,1 @@
-#include "../Baekjoon/자료구조/1966.hpp"
+#include "../Baekjoon/분할정복/2630.hpp"

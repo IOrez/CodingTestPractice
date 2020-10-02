@@ -804,5 +804,8 @@
     <ClInclude Include="자료구조\1966.hpp">
       <Filter>자료구조</Filter>
     </ClInclude>
+    <ClInclude Include="분할정복\2630.hpp">
+      <Filter>분할정복</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
