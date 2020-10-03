@@ -807,5 +807,11 @@
     <ClInclude Include="분할정복\2630.hpp">
       <Filter>분할정복</Filter>
     </ClInclude>
+    <ClInclude Include="그래프이론\1613.hpp">
+      <Filter>그래프이론</Filter>
+    </ClInclude>
+    <ClInclude Include="브루트 포스\7568.hpp">
+      <Filter>브루트 포스</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
