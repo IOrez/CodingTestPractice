@@ -1,43 +1,40 @@
 #include <iostream>
 #include <algorithm>
-#include <initializer_list>
-#include <functional>
 using namespace std;
-int N;
-int Table[100000][3];
 
-int solution(bool isMin) {
-	
-	int DP[2][3] = { 0,0,0,0,0,0 };
-	function<int(initializer_list<int>)> func = [&](initializer_list<int> list) {return max(list);};
-	if (isMin)
-		func = [&](initializer_list<int> list) {return min(list);};
-	for (int j = 0; j < 3; ++j)DP[0][j] = Table[0][j];
-	for (int i = 1; i < N; ++i) {
-		for (int j = 0; j < 3; ++j) {
-			DP[1][j] = DP[0][j] + Table[i][j];
-			switch (j) {
-			case 0:
-				DP[1][j] = func({ DP[1][j],DP[0][j + 1] + Table[i][j] }); break;
-			case 1:
-				DP[1][j] = func({ DP[1][j],DP[0][j - 1] + Table[i][j] });
-				DP[1][j] = func({ DP[1][j],DP[0][j + 1] + Table[i][j] }); break;
-			case 2:
-				DP[1][j] = func({ DP[1][j],DP[0][j - 1] + Table[i][j] }); break;
-			}
-		}
-		for (int j = 0; j < 3; ++j)DP[0][j] = DP[1][j];
-	}
-	return func({ DP[0][0],DP[0][1] ,DP[0][2] });
-}
+#define MIN 987654321
+
+int table[1][3];
+int MAX_DP[2][3],MIN_DP[2][3];
+int N;
+
 int main() {
 	ios_base::sync_with_stdio(false); cin.tie(nullptr);
 	cin >> N;
-	for (int i = 0; i < N; ++i)
-		for (int j = 0; j < 3; ++j)
-			cin >> Table[i][j];
+	for (int i = 0; i < 3; ++i)MIN_DP[1][i] = MIN;
+	for (int i = 0; i < N; ++i) {
+		cin >> table[0][0] >> table[0][1] >> table[0][2];
+		for (int j = 0; j < 3; ++j) {
+			for (int k = 0; k < 3; ++k) {
+				if (j == 0 && k == 2)continue;
+				if (j == 2 && k == 0)continue;
+				MAX_DP[1][k] = max(MAX_DP[1][k], MAX_DP[0][j] + table[0][k]);
+				MIN_DP[1][k] = min(MIN_DP[1][k], MIN_DP[0][j] + table[0][k]);
+			}
+		}
+		for (int j = 0; j < 3; ++j) {
+			MAX_DP[0][j] = MAX_DP[1][j];
+			MIN_DP[0][j] = MIN_DP[1][j];
+			MIN_DP[1][j] = MIN;
+		}
+	}
 
-	cout << solution(false) << " " << solution(true);
+	int result_max = 0, result_min = MIN;
+	for (int i = 0; i < 3; ++i) {
+		result_max = max(result_max, MAX_DP[0][i]);
+		result_min = min(result_min, MIN_DP[0][i]);
+	}
+	cout << result_max << " " << result_min;
 
 	return 0;
 }
