@@ -100,6 +100,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -288,6 +289,7 @@
     <ClInclude Include="다익스트라\14496.hpp" />
     <ClInclude Include="다익스트라\1753.hpp" />
     <ClInclude Include="다익스트라\1916.hpp" />
+    <ClInclude Include="다익스트라\4485.hpp" />
     <ClInclude Include="덱\10866.hpp" />
     <ClInclude Include="문자열 처리\10809.hpp" />
     <ClInclude Include="문자열 처리\1152.hpp" />
