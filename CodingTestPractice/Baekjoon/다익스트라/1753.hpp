@@ -1,52 +1,52 @@
 #include <iostream>
 #include <vector>
-#include <queue>
 #include <algorithm>
-
+#include <queue>
 using namespace std;
 
-#define INF 999999
+int V, E, K, Start, End, Weight;
 
-int table[20001][2];
-
-int main()
-{
-	ios_base::sync_with_stdio(false); cin.tie(NULL);
-	int V, E, S;
+int main() {
+	ios_base::sync_with_stdio(false); cin.tie(nullptr);
 	cin >> V >> E;
-	cin >> S;
-	priority_queue<pair<int, int> > pq;
-	vector<pair<int, int> >* edges = new vector<pair<int,int> >[V+1];
-	for (int i = 0; i < E; ++i)
-	{
-		int sv, ev, w;
-		cin >> sv >> ev >> w;
-		edges[sv].push_back({ ev,w });
+	cin >> K;
+	vector<vector<pair<int,int>>> vTable(V + 1);
+	vector<int> vDis(V + 1,-1);
+	vector<bool> vCheck(V + 1,false);
+	for (int i = 0; i < E; ++i) {
+		cin >> Start >> End >> Weight;
+		vTable[Start].push_back({ End,Weight });
 	}
-	for (int i = 1; i <= V; ++i)
-		table[i][1] = INF;
-	table[S][1] = 0;
-	pq.push({ -table[S][1], S });
-	while (!pq.empty())
-	{
-		int min = -pq.top().first;
-		int vertex = pq.top().second;
-		pq.pop();
-	
-		for (auto obj : edges[vertex])
-			if (table[obj.first][1] > min + obj.second)
-			{
-				table[obj.first][0] = vertex;
-				table[obj.first][1] = min + obj.second;
-				pq.push({ -table[obj.first][1],obj.first });
-			}
-	}
+	vCheck[K] = true;
+	vDis[K] = 0;
+	for (auto& obj : vTable[K])
+		if(vDis[obj.first]==-1|| vDis[obj.first] > obj.second)
+			vDis[obj.first] = obj.second;
 
+	priority_queue<pair<int, int>> pq;
 	for (int i = 1; i <= V; ++i)
-	{
-		if (table[i][1] == INF)cout << "INF" << endl;
-		else cout << table[i][1] << endl;
+		if (vDis[i] != -1 && i != K)pq.push({ -vDis[i],i });
+	while (!pq.empty()) {
+		auto [MinVal, pos] = pq.top();
+		MinVal *= -1;
+		pq.pop();
+		if (MinVal > vDis[pos])continue;
+		vCheck[pos] = true;
+		for (auto& obj : vTable[pos]) {
+			if (vCheck[obj.first])continue;
+			if (vDis[obj.first] == -1 || vDis[obj.first] > vDis[pos] + obj.second)
+			{
+				vDis[obj.first] = vDis[pos] + obj.second;
+				pq.push({ -vDis[obj.first],obj.first });
+			}
+		}
+
 	}
-	delete[] edges;
+	for (int i = 1; i <= V;++i) {
+		if (vDis[i] == -1)
+			cout << "INF" << '\n';
+		else
+			cout << vDis[i] << '\n';
+	}
 	return 0;
 }
