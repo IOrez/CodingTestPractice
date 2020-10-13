@@ -825,5 +825,8 @@
     <ClInclude Include="다익스트라\10217.hpp">
       <Filter>다익스트라</Filter>
     </ClInclude>
+    <ClInclude Include="수학\1546.hpp">
+      <Filter>수학</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

@@ -1,1 +1,1 @@
-#include "../Baekjoon/다익스트라/1753.hpp"
+#include "../Baekjoon/수학/1546.hpp"
