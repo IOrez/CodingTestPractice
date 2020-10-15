@@ -831,5 +831,8 @@
     <ClInclude Include="DFS_BFS\7562.hpp">
       <Filter>DFS_BFS</Filter>
     </ClInclude>
+    <ClInclude Include="수학\1929.hpp">
+      <Filter>수학</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
