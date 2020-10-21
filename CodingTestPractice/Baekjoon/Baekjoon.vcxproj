@@ -327,6 +327,7 @@
     <ClInclude Include="세그먼트트리\2042.hpp" />
     <ClInclude Include="수학\1000.hpp" />
     <ClInclude Include="수학\1001.hpp" />
+    <ClInclude Include="수학\1008.hpp" />
     <ClInclude Include="수학\1016.hpp" />
     <ClInclude Include="수학\10164.hpp" />
     <ClInclude Include="수학\10818.hpp" />
