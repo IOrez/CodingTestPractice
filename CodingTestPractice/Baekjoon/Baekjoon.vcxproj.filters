@@ -873,5 +873,8 @@
     <ClInclude Include="자료구조\1406.hpp">
       <Filter>자료구조</Filter>
     </ClInclude>
+    <ClInclude Include="덱\1021.hpp">
+      <Filter>덱</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

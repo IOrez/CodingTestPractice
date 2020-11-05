@@ -1,1 +1,1 @@
-#include "../Baekjoon/자료구조/1406.hpp"
+#include "../Baekjoon/덱/1021.hpp"
