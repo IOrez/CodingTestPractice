@@ -876,5 +876,11 @@
     <ClInclude Include="덱\1021.hpp">
       <Filter>덱</Filter>
     </ClInclude>
+    <ClInclude Include="수학\11050.hpp">
+      <Filter>수학</Filter>
+    </ClInclude>
+    <ClInclude Include="수학\11401.hpp">
+      <Filter>수학</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
