@@ -7,15 +7,12 @@ using ll = long long;
 ll fac[MAX_N];
 
 ll Pow(ll x, ll y) {
-	ll ret = 1;
-	while (y > 0) {
-		if (y % 2) {
-			ret *= x;
-			ret %= MOD;
-		}
+	if (y == 0)return 1;
+	ll val = Pow(x, y / 2);
+	ll ret = (val * val)%MOD;
+	if (y % 2) {
 		ret *= x;
 		ret %= MOD;
-		y /= 2;
 	}
 	return ret;
 }
@@ -29,6 +26,6 @@ int main() {
 		fac[i] = (fac[i - 1] * i) % MOD;
 	ll rev1 = Pow(fac[K] , MOD - 2);
 	ll rev2 = Pow(fac[N - K] , MOD - 2);
-	cout << (fac[N] * rev1*rev2)% MOD;
+	cout << ((fac[N] * rev1)%MOD)*rev2% MOD;
 	return 0;
 }
