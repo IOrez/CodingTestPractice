@@ -140,6 +140,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="14888.hpp" />
     <ClInclude Include="DFS_BFS\10026.hpp" />
     <ClInclude Include="DFS_BFS\1012.hpp" />
     <ClInclude Include="DFS_BFS\10451.hpp" />
@@ -175,6 +176,7 @@
     <ClInclude Include="구현\8320.hpp" />
     <ClInclude Include="그래프이론\1162.hpp" />
     <ClInclude Include="그래프이론\11812.hpp" />
+    <ClInclude Include="그래프이론\1197.hpp" />
     <ClInclude Include="그래프이론\19535.hpp" />
     <ClInclude Include="그래프이론\1613.hpp" />
     <ClInclude Include="그래프이론\5567.hpp" />

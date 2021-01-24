@@ -894,5 +894,11 @@
     <ClInclude Include="구현\1063.hpp">
       <Filter>구현</Filter>
     </ClInclude>
+    <ClInclude Include="14888.hpp">
+      <Filter>브루트 포스</Filter>
+    </ClInclude>
+    <ClInclude Include="그래프이론\1197.hpp">
+      <Filter>그래프이론</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
