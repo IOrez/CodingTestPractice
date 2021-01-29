@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ExecuteProject", "ExecutePr
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Codeforces", "Codeforces\Codeforces.vcxproj", "{A39B88C4-F3C6-4F39-8D27-631806F38910}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Programmers", "Programmers\Programmers.vcxproj", "{A6BDA4E1-9781-45EB-A791-523F9EEA4357}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -51,6 +53,14 @@ Global
 		{A39B88C4-F3C6-4F39-8D27-631806F38910}.Release|x64.Build.0 = Release|x64
 		{A39B88C4-F3C6-4F39-8D27-631806F38910}.Release|x86.ActiveCfg = Release|Win32
 		{A39B88C4-F3C6-4F39-8D27-631806F38910}.Release|x86.Build.0 = Release|Win32
+		{A6BDA4E1-9781-45EB-A791-523F9EEA4357}.Debug|x64.ActiveCfg = Debug|x64
+		{A6BDA4E1-9781-45EB-A791-523F9EEA4357}.Debug|x64.Build.0 = Debug|x64
+		{A6BDA4E1-9781-45EB-A791-523F9EEA4357}.Debug|x86.ActiveCfg = Debug|Win32
+		{A6BDA4E1-9781-45EB-A791-523F9EEA4357}.Debug|x86.Build.0 = Debug|Win32
+		{A6BDA4E1-9781-45EB-A791-523F9EEA4357}.Release|x64.ActiveCfg = Release|x64
+		{A6BDA4E1-9781-45EB-A791-523F9EEA4357}.Release|x64.Build.0 = Release|x64
+		{A6BDA4E1-9781-45EB-A791-523F9EEA4357}.Release|x86.ActiveCfg = Release|Win32
+		{A6BDA4E1-9781-45EB-A791-523F9EEA4357}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
