@@ -88,6 +88,9 @@
     <Filter Include="누적 합">
       <UniqueIdentifier>{c3938c44-186d-494d-931e-1d270c7150e5}</UniqueIdentifier>
     </Filter>
+    <Filter Include="비트마스크">
+      <UniqueIdentifier>{6fc16cc6-3da4-43df-ad5c-f70d57fc0ad1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="그리디 알고리즘\1931.hpp">
@@ -911,6 +914,9 @@
     </ClInclude>
     <ClInclude Include="DFS_BFS\3055.hpp">
       <Filter>DFS_BFS</Filter>
+    </ClInclude>
+    <ClInclude Include="비트마스크\14889.hpp">
+      <Filter>비트마스크</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
