@@ -1,1 +1,1 @@
-#include "../Baekjoon/비트마스크/14889.hpp"
+#include "../Baekjoon/트리/1167.hpp"
