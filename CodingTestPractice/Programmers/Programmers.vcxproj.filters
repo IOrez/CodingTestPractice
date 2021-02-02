@@ -14,5 +14,8 @@
     <ClInclude Include="Level3\DP_2XN 타일링.hpp">
       <Filter>Level3</Filter>
     </ClInclude>
+    <ClInclude Include="Level3\DFS_BFS_네트워크.hpp">
+      <Filter>Level3</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

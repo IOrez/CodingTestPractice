@@ -142,6 +142,7 @@
     <ClCompile Include="Level3\DP_N으로 표현.hpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Level3\DFS_BFS_네트워크.hpp" />
     <ClInclude Include="Level3\DP_2XN 타일링.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

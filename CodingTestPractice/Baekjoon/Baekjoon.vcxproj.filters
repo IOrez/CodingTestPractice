@@ -924,5 +924,8 @@
     <ClInclude Include="자료구조\3190.hpp">
       <Filter>자료구조</Filter>
     </ClInclude>
+    <ClInclude Include="백트래킹\15649.hpp">
+      <Filter>백트래킹</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
