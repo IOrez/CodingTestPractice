@@ -170,6 +170,7 @@
     <ClInclude Include="LIS\1365.hpp" />
     <ClInclude Include="LIS\2568.hpp" />
     <ClInclude Include="구현\1009.hpp" />
+    <ClInclude Include="구현\10163.hpp" />
     <ClInclude Include="구현\1063.hpp" />
     <ClInclude Include="구현\2750.hpp" />
     <ClInclude Include="구현\2839.hpp" />
@@ -342,6 +343,7 @@
     <ClInclude Include="수학\1001.hpp" />
     <ClInclude Include="수학\1008.hpp" />
     <ClInclude Include="수학\1016.hpp" />
+    <ClInclude Include="수학\10162.hpp" />
     <ClInclude Include="수학\10164.hpp" />
     <ClInclude Include="수학\10818.hpp" />
     <ClInclude Include="수학\10871.hpp" />

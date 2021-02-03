@@ -1,28 +1,25 @@
 #include <iostream>
+
 using namespace std;
 
-unsigned long long table[16][16];
+#define SIZE 15
 
-int main()
-{
+using ull = unsigned long long;
+ull Table[SIZE][SIZE];
+int N, M, K;
+int main() {
 	ios_base::sync_with_stdio(false); cin.tie(nullptr);
-	int N, M, K;
-
-	table[0][1] = 1;
-
-	for (int i = 1; i <= 15; ++i)
-		for (int j = 1; j <= 15; ++j)
-			table[i][j] = table[i - 1][j] + table[i][j - 1];
+	for (int i = 0; i < SIZE; ++i) { Table[i][0] = 1; Table[0][i] = 1; }
+	for (int y = 1; y < SIZE; ++y)
+		for (int x = 1; x < SIZE; ++x)
+			Table[y][x] = Table[y - 1][x] + Table[y][x - 1];
 
 	cin >> N >> M >> K;
-	if (K == 0)cout << table[N][M];
-	else
-	{
-		int Y = K / M + (bool)(K % M);
-		int X = K - (Y - 1) * M;
-
-		cout << table[Y][X] * table[N - Y + 1][M - X + 1];
+	if (K == 0)
+		cout << Table[N - 1][M - 1];
+	else {
+		int Y = (K - 1) / M, X = (K - 1) % M;
+		cout << Table[Y][X] * Table[N - 1 - Y][M - 1 - X];
 	}
 	return 0;
-
 }

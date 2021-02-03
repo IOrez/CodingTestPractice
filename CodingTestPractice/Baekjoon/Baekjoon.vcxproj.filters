@@ -927,5 +927,11 @@
     <ClInclude Include="백트래킹\15649.hpp">
       <Filter>백트래킹</Filter>
     </ClInclude>
+    <ClInclude Include="수학\10162.hpp">
+      <Filter>수학</Filter>
+    </ClInclude>
+    <ClInclude Include="구현\10163.hpp">
+      <Filter>구현</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
