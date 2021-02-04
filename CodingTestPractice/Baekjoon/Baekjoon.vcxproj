@@ -182,6 +182,7 @@
     <ClInclude Include="그래프이론\19535.hpp" />
     <ClInclude Include="그래프이론\1613.hpp" />
     <ClInclude Include="그래프이론\5567.hpp" />
+    <ClInclude Include="그리디 알고리즘\10165.hpp" />
     <ClInclude Include="그리디 알고리즘\1041.hpp" />
     <ClInclude Include="그리디 알고리즘\1049.hpp" />
     <ClInclude Include="그리디 알고리즘\10610.hpp" />

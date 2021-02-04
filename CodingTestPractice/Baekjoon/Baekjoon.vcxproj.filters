@@ -933,5 +933,8 @@
     <ClInclude Include="구현\10163.hpp">
       <Filter>구현</Filter>
     </ClInclude>
+    <ClInclude Include="그리디 알고리즘\10165.hpp">
+      <Filter>그리디 알고리즘</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
