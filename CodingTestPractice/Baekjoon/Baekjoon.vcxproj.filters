@@ -939,5 +939,8 @@
     <ClInclude Include="이분탐색\10816.hpp">
       <Filter>이분탐색</Filter>
     </ClInclude>
+    <ClInclude Include="트리\1967.hpp">
+      <Filter>트리</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

@@ -1,1 +1,1 @@
-#include "../Baekjoon/이분탐색/10816.hpp"
+#include "../Baekjoon/트리/1967.hpp"
