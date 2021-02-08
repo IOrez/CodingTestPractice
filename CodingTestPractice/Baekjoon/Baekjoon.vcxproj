@@ -230,6 +230,7 @@
     <ClInclude Include="그리디 알고리즘\8980.hpp" />
     <ClInclude Include="그리디 알고리즘\9576.hpp" />
     <ClInclude Include="기하알고리즘\1002.hpp" />
+    <ClInclude Include="기하알고리즘\1004.hpp" />
     <ClInclude Include="기하알고리즘\11758.hpp" />
     <ClInclude Include="기하알고리즘\1708.hpp" />
     <ClInclude Include="기하알고리즘\2162.hpp" />
@@ -372,6 +373,7 @@
     <ClInclude Include="수학\2884.hpp" />
     <ClInclude Include="수학\3053.hpp" />
     <ClInclude Include="수학\4344.hpp" />
+    <ClInclude Include="수학\9020.hpp" />
     <ClInclude Include="수학\9550.hpp" />
     <ClInclude Include="스택\10773.hpp" />
     <ClInclude Include="스택\10799.hpp" />
