@@ -20,5 +20,8 @@
     <ClInclude Include="Level3\정렬_풍선터트리기.hpp">
       <Filter>Level3</Filter>
     </ClInclude>
+    <ClInclude Include="Level3\문자열_브라이언의고민.hpp">
+      <Filter>Level3</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

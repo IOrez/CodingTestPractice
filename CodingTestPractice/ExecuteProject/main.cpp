@@ -1,1 +1,1 @@
-#include "../Baekjoon/다이나믹 프로그래밍/9252.hpp"
+#include "../Programmers/Level3/문자열_브라이언의고민.hpp"
