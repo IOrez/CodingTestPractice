@@ -957,5 +957,8 @@
     <ClInclude Include="수학\11653.hpp">
       <Filter>수학</Filter>
     </ClInclude>
+    <ClInclude Include="자료구조\11279.hpp">
+      <Filter>자료구조</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
