@@ -1,1 +1,1 @@
-#include "../Baekjoon/DFS_BFS/16236.hpp"
+#include "../Baekjoon/그래프이론/16234.hpp"
