@@ -966,5 +966,8 @@
     <ClInclude Include="그래프이론\16234.hpp">
       <Filter>그래프이론</Filter>
     </ClInclude>
+    <ClInclude Include="누적 합\3020.hpp">
+      <Filter>누적 합</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

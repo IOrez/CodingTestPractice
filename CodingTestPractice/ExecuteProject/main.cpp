@@ -1,1 +1,1 @@
-#include "../Baekjoon/그래프이론/16234.hpp"
+#include "../Baekjoon/누적 합/3020.hpp"
