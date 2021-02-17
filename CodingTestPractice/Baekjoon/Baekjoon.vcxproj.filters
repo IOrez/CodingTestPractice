@@ -969,5 +969,8 @@
     <ClInclude Include="누적 합\3020.hpp">
       <Filter>누적 합</Filter>
     </ClInclude>
+    <ClInclude Include="브루트 포스\1034.hpp">
+      <Filter>브루트 포스</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

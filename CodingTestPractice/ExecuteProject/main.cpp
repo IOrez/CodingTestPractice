@@ -1,1 +1,1 @@
-#include "../Baekjoon/누적 합/3020.hpp"
+#include "../Baekjoon/브루트 포스/1034.hpp"
