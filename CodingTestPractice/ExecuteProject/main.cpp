@@ -1,1 +1,1 @@
-#include "../Baekjoon/다이나믹 프로그래밍/1006.hpp"
+#include "../Baekjoon/세그먼트트리/2042.hpp"
