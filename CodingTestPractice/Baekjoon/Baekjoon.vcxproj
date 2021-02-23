@@ -310,6 +310,7 @@
     <ClInclude Include="다익스트라\4485.hpp" />
     <ClInclude Include="덱\1021.hpp" />
     <ClInclude Include="덱\10866.hpp" />
+    <ClInclude Include="문자열 처리\1013.hpp" />
     <ClInclude Include="문자열 처리\10809.hpp" />
     <ClInclude Include="문자열 처리\1152.hpp" />
     <ClInclude Include="문자열 처리\1157.hpp" />
@@ -328,6 +329,7 @@
     <ClInclude Include="백트래킹\9663.hpp" />
     <ClInclude Include="분할정복\2447.hpp" />
     <ClInclude Include="분할정복\2630.hpp" />
+    <ClInclude Include="브루트 포스\1007.hpp" />
     <ClInclude Include="브루트 포스\1018.hpp" />
     <ClInclude Include="브루트 포스\1034.hpp" />
     <ClInclude Include="브루트 포스\1065.hpp" />
@@ -345,6 +347,7 @@
     <ClInclude Include="브루트 포스\2798.hpp" />
     <ClInclude Include="브루트 포스\6603.hpp" />
     <ClInclude Include="브루트 포스\7568.hpp" />
+    <ClInclude Include="비트마스크\1062.hpp" />
     <ClInclude Include="비트마스크\14889.hpp" />
     <ClInclude Include="세그먼트트리\2042.hpp" />
     <ClInclude Include="수학\1000.hpp" />
