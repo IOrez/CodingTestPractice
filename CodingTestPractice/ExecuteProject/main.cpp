@@ -1,1 +1,1 @@
-#include "../Baekjoon/수학/1019.hpp"
+#include "../Baekjoon/분할정복/1030.hpp"

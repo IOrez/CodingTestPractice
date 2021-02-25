@@ -327,6 +327,7 @@
     <ClInclude Include="백트래킹\15649.hpp" />
     <ClInclude Include="백트래킹\2580.hpp" />
     <ClInclude Include="백트래킹\9663.hpp" />
+    <ClInclude Include="분할정복\1030.hpp" />
     <ClInclude Include="분할정복\2447.hpp" />
     <ClInclude Include="분할정복\2630.hpp" />
     <ClInclude Include="브루트 포스\1007.hpp" />
