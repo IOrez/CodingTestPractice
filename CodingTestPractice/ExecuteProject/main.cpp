@@ -1,1 +1,1 @@
-#include "../Baekjoon/분할정복/1030.hpp"
+#include "../Baekjoon/구현/1022.hpp"
