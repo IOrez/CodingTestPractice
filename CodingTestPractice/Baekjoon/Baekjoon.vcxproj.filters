@@ -996,5 +996,11 @@
     <ClInclude Include="구현\1022.hpp">
       <Filter>구현</Filter>
     </ClInclude>
+    <ClInclude Include="그래프이론\1043.hpp">
+      <Filter>그래프이론</Filter>
+    </ClInclude>
+    <ClInclude Include="다익스트라\1261.hpp">
+      <Filter>다익스트라</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
