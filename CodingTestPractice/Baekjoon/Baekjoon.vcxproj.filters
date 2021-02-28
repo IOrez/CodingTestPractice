@@ -1002,5 +1002,8 @@
     <ClInclude Include="다익스트라\1261.hpp">
       <Filter>다익스트라</Filter>
     </ClInclude>
+    <ClInclude Include="분할정복\1992.hpp">
+      <Filter>분할정복</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
