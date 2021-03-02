@@ -1005,5 +1005,8 @@
     <ClInclude Include="분할정복\1992.hpp">
       <Filter>분할정복</Filter>
     </ClInclude>
+    <ClInclude Include="그리디 알고리즘\1715.hpp">
+      <Filter>그리디 알고리즘</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
