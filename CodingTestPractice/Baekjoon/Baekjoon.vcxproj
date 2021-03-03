@@ -383,6 +383,7 @@
     <ClInclude Include="수학\1929.hpp" />
     <ClInclude Include="수학\19539.hpp" />
     <ClInclude Include="수학\1978.hpp" />
+    <ClInclude Include="수학\20943.hpp" />
     <ClInclude Include="수학\2292.hpp" />
     <ClInclude Include="수학\2577.hpp" />
     <ClInclude Include="수학\2588.hpp" />
@@ -415,6 +416,7 @@
     <ClInclude Include="자료구조\2164.hpp" />
     <ClInclude Include="자료구조\3190.hpp" />
     <ClInclude Include="자료구조\5052.hpp" />
+    <ClInclude Include="자료구조\7662.hpp" />
     <ClInclude Include="자료구조\9375.hpp" />
     <ClInclude Include="재귀호출\1074.hpp" />
     <ClInclude Include="재귀호출\1914.hpp" />
@@ -428,6 +430,7 @@
     <ClInclude Include="정렬\11652.hpp" />
     <ClInclude Include="정렬\1181.hpp" />
     <ClInclude Include="정렬\1427.hpp" />
+    <ClInclude Include="정렬\1431.hpp" />
     <ClInclude Include="정렬\2108.hpp" />
     <ClInclude Include="조합론\11050.hpp" />
     <ClInclude Include="조합론\2775.hpp" />

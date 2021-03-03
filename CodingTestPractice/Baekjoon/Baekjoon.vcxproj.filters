@@ -1008,5 +1008,14 @@
     <ClInclude Include="그리디 알고리즘\1715.hpp">
       <Filter>그리디 알고리즘</Filter>
     </ClInclude>
+    <ClInclude Include="수학\20943.hpp">
+      <Filter>수학</Filter>
+    </ClInclude>
+    <ClInclude Include="자료구조\7662.hpp">
+      <Filter>자료구조</Filter>
+    </ClInclude>
+    <ClInclude Include="정렬\1431.hpp">
+      <Filter>정렬</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
