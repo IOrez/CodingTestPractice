@@ -1017,5 +1017,8 @@
     <ClInclude Include="정렬\1431.hpp">
       <Filter>정렬</Filter>
     </ClInclude>
+    <ClInclude Include="확률\1089.hpp">
+      <Filter>확률</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

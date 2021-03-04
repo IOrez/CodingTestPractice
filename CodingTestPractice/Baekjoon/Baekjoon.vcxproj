@@ -447,6 +447,7 @@
     <ClInclude Include="플로이드 와샬 알고리즘\1238.hpp" />
     <ClInclude Include="플로이드 와샬 알고리즘\14938.hpp" />
     <ClInclude Include="플로이드 와샬 알고리즘\17182.hpp" />
+    <ClInclude Include="확률\1089.hpp" />
     <ClInclude Include="확률\13251.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
