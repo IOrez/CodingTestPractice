@@ -174,6 +174,7 @@
     <ClInclude Include="구현\10163.hpp" />
     <ClInclude Include="구현\1022.hpp" />
     <ClInclude Include="구현\1063.hpp" />
+    <ClInclude Include="구현\15998.hpp" />
     <ClInclude Include="구현\2750.hpp" />
     <ClInclude Include="구현\2839.hpp" />
     <ClInclude Include="구현\4948.hpp" />
@@ -444,6 +445,7 @@
     <ClInclude Include="트리\1991.hpp" />
     <ClInclude Include="플로이드 와샬 알고리즘\11403.hpp" />
     <ClInclude Include="플로이드 와샬 알고리즘\11404.hpp" />
+    <ClInclude Include="플로이드 와샬 알고리즘\11780.hpp" />
     <ClInclude Include="플로이드 와샬 알고리즘\1238.hpp" />
     <ClInclude Include="플로이드 와샬 알고리즘\14938.hpp" />
     <ClInclude Include="플로이드 와샬 알고리즘\17182.hpp" />
