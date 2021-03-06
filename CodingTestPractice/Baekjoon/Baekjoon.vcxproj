@@ -158,6 +158,7 @@
     <ClInclude Include="DFS_BFS\2178.hpp" />
     <ClInclude Include="DFS_BFS\2206.hpp" />
     <ClInclude Include="DFS_BFS\2468.hpp" />
+    <ClInclude Include="DFS_BFS\2573.hpp" />
     <ClInclude Include="DFS_BFS\2583.hpp" />
     <ClInclude Include="DFS_BFS\2606.hpp" />
     <ClInclude Include="DFS_BFS\2644.hpp" />
