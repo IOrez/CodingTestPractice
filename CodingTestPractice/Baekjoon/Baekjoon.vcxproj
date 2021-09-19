@@ -145,6 +145,7 @@
     <ClInclude Include="DFS_BFS\1012.hpp" />
     <ClInclude Include="DFS_BFS\10451.hpp" />
     <ClInclude Include="DFS_BFS\11724.hpp" />
+    <ClInclude Include="DFS_BFS\1194.hpp" />
     <ClInclude Include="DFS_BFS\1260.hpp" />
     <ClInclude Include="DFS_BFS\13460.hpp" />
     <ClInclude Include="DFS_BFS\1389.hpp" />
@@ -176,6 +177,8 @@
     <ClInclude Include="구현\10163.hpp" />
     <ClInclude Include="구현\1022.hpp" />
     <ClInclude Include="구현\1063.hpp" />
+    <ClInclude Include="구현\14503.hpp" />
+    <ClInclude Include="구현\1476.hpp" />
     <ClInclude Include="구현\15998.hpp" />
     <ClInclude Include="구현\2750.hpp" />
     <ClInclude Include="구현\2839.hpp" />
@@ -438,6 +441,7 @@
     <ClInclude Include="정렬\1181.hpp" />
     <ClInclude Include="정렬\1427.hpp" />
     <ClInclude Include="정렬\1431.hpp" />
+    <ClInclude Include="정렬\17140.hpp" />
     <ClInclude Include="정렬\2108.hpp" />
     <ClInclude Include="조합론\11050.hpp" />
     <ClInclude Include="조합론\2775.hpp" />

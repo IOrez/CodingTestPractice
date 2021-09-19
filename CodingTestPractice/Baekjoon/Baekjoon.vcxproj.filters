@@ -1044,5 +1044,17 @@
     <ClInclude Include="DFS_BFS\2638.hpp">
       <Filter>DFS_BFS</Filter>
     </ClInclude>
+    <ClInclude Include="DFS_BFS\1194.hpp">
+      <Filter>DFS_BFS</Filter>
+    </ClInclude>
+    <ClInclude Include="구현\1476.hpp">
+      <Filter>구현</Filter>
+    </ClInclude>
+    <ClInclude Include="구현\14503.hpp">
+      <Filter>구현</Filter>
+    </ClInclude>
+    <ClInclude Include="정렬\17140.hpp">
+      <Filter>정렬</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
