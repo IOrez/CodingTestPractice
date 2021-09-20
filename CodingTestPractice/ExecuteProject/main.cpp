@@ -1,1 +1,1 @@
-#include "../Baekjoon/정렬/17140.hpp"
+#include "../Baekjoon/자료구조/1717.hpp"
