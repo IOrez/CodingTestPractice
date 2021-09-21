@@ -189,6 +189,7 @@
     <ClInclude Include="그래프이론\11812.hpp" />
     <ClInclude Include="그래프이론\1197.hpp" />
     <ClInclude Include="그래프이론\16234.hpp" />
+    <ClInclude Include="그래프이론\1922.hpp" />
     <ClInclude Include="그래프이론\19535.hpp" />
     <ClInclude Include="그래프이론\1613.hpp" />
     <ClInclude Include="그래프이론\5567.hpp" />

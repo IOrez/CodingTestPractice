@@ -1059,5 +1059,8 @@
     <ClInclude Include="자료구조\1717.hpp">
       <Filter>자료구조</Filter>
     </ClInclude>
+    <ClInclude Include="그래프이론\1922.hpp">
+      <Filter>그래프이론</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
