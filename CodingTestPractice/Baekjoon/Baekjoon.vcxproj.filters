@@ -1062,5 +1062,8 @@
     <ClInclude Include="그래프이론\1922.hpp">
       <Filter>그래프이론</Filter>
     </ClInclude>
+    <ClInclude Include="구현\15686.hpp">
+      <Filter>구현</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
