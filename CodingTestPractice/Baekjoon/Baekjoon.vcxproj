@@ -403,6 +403,7 @@
     <ClInclude Include="수학\2609.hpp" />
     <ClInclude Include="수학\2869.hpp" />
     <ClInclude Include="수학\2884.hpp" />
+    <ClInclude Include="수학\3046.hpp" />
     <ClInclude Include="수학\3053.hpp" />
     <ClInclude Include="수학\4344.hpp" />
     <ClInclude Include="수학\9020.hpp" />
