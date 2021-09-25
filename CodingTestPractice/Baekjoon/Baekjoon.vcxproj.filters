@@ -1071,5 +1071,8 @@
     <ClInclude Include="수학\3046.hpp">
       <Filter>수학</Filter>
     </ClInclude>
+    <ClInclude Include="이분탐색\2110.hpp">
+      <Filter>이분탐색</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
