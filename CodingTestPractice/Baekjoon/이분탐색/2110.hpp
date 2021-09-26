@@ -5,28 +5,28 @@ using namespace std;
 int N, C, X;
 
 
-int Search(vector<int>& v, int left, int right) {
-	int count = 1, maxLength = 0;
-	while (left < right && count != C) {
-		int mid = (left + right) / 2;
-		if (v[mid] - v[left] - 1 > v[right] - v[mid] - 1) {
-			maxLength = max(maxLength,v[mid] - v[left] - 1);
-			right = mid;
+bool Check(vector<int>& v,int length,int& count) {
+	int idx = 0;
+	for (int i = 0; i < N&&count<=C; ++i) {
+		if (v[idx] + length <= v[i]) {
+			count++;
+			idx = i;
 		}
-		else {
-			maxLength = max(maxLength,v[right] - v[mid] - 1);
-			left = mid;
-		}
-		count++;
 	}
-	return (C != count) ? -1 : maxLength;
+	return (count >= C);
 }
 
 int Solution(vector<int>& v) {
+	int left = 0, right = v[N - 1];
 	int ans = -1;
-	
-	ans = Search(v, 0, N - 1);
-
+	while (left <= right) {
+		int count = 1, mid = 0;
+		mid = (left + right) / 2;
+		if (Check(v, mid,count))
+			ans = max(ans, mid);
+		if (count < C)right = mid - 1;
+		else left = mid + 1;
+	}
 	return ans;
 }
 
