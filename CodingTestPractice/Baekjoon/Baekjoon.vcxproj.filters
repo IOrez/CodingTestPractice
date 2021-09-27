@@ -1074,5 +1074,8 @@
     <ClInclude Include="이분탐색\2110.hpp">
       <Filter>이분탐색</Filter>
     </ClInclude>
+    <ClInclude Include="그래프이론\1697.hpp">
+      <Filter>그래프이론</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
