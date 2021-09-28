@@ -91,6 +91,9 @@
     <Filter Include="수학">
       <UniqueIdentifier>{1ec5532a-9e08-4fc4-9e85-33eff6c42998}</UniqueIdentifier>
     </Filter>
+    <Filter Include="시뮬레이션">
+      <UniqueIdentifier>{1aab2cfb-f8f4-4f03-a3b1-9b3bff366223}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="그리디 알고리즘\1931.hpp">
@@ -1076,6 +1079,9 @@
     </ClInclude>
     <ClInclude Include="그래프이론\1697.hpp">
       <Filter>그래프이론</Filter>
+    </ClInclude>
+    <ClInclude Include="시뮬레이션\14499.hpp">
+      <Filter>시뮬레이션</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

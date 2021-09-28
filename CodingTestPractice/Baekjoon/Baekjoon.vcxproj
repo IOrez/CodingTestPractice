@@ -415,6 +415,7 @@
     <ClInclude Include="스택\1874.hpp" />
     <ClInclude Include="스택\2504.hpp" />
     <ClInclude Include="스택\9012.hpp" />
+    <ClInclude Include="시뮬레이션\14499.hpp" />
     <ClInclude Include="이분탐색\10815.hpp" />
     <ClInclude Include="이분탐색\10816.hpp" />
     <ClInclude Include="이분탐색\1654.hpp" />
