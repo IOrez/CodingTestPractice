@@ -184,6 +184,7 @@
     <ClInclude Include="구현\2750.hpp" />
     <ClInclude Include="구현\2839.hpp" />
     <ClInclude Include="구현\4948.hpp" />
+    <ClInclude Include="구현\5430.hpp" />
     <ClInclude Include="구현\8320.hpp" />
     <ClInclude Include="그래프이론\1043.hpp" />
     <ClInclude Include="그래프이론\1162.hpp" />

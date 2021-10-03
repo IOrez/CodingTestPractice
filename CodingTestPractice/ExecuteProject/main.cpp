@@ -1,1 +1,1 @@
-#include "../Baekjoon/그래프이론/2252.hpp"
+#include "../Baekjoon/구현/5430.hpp"
