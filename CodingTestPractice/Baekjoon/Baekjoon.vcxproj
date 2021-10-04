@@ -355,6 +355,7 @@
     <ClInclude Include="분할정복\2630.hpp" />
     <ClInclude Include="브루트 포스\1007.hpp" />
     <ClInclude Include="브루트 포스\1018.hpp" />
+    <ClInclude Include="브루트 포스\1025.hpp" />
     <ClInclude Include="브루트 포스\1034.hpp" />
     <ClInclude Include="브루트 포스\1065.hpp" />
     <ClInclude Include="브루트 포스\1213.hpp" />
