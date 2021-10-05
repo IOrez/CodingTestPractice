@@ -1,1 +1,1 @@
-#include "../Baekjoon/브루트 포스/1025.hpp"
+#include "../Baekjoon/구현/11559.hpp"
