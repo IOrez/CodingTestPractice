@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BaekjoonCS
+namespace BaekjoonCS.구현
 {
     class _2753
     {
@@ -19,14 +19,6 @@ namespace BaekjoonCS
             int result = 0;
             if ((_year % 4 == 0) && ((_year % 400 == 0) || _year % 100 != 0)) result = 1;
             Console.WriteLine(result);
-        }
-    }
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            _2753 problem = new _2753();
-            problem.Solution();
         }
     }
 }
