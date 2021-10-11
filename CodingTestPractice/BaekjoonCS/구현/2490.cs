@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BaekjoonCS
+namespace BaekjoonCS.구현
 {
     class _2490
     {
@@ -17,7 +17,7 @@ namespace BaekjoonCS
         }
         public void Solution()
         {
-            for (int i = 0; i < 3; ++i)
+            for(int i = 0; i < 3; ++i)
             {
                 Init();
                 int cnt = 0;
@@ -25,25 +25,16 @@ namespace BaekjoonCS
                     cnt += value;
 
                 char res = 'A';
-                switch (cnt)
-                {
-                    case 0: res = 'D'; break;
-                    case 1: res = 'C'; break;
-                    case 2: res = 'B'; break;
-                    case 3: res = 'A'; break;
-                    case 4: res = 'E'; break;
+                switch (cnt) {
+                    case 0:res = 'D';break;
+                    case 1:res = 'C';break;
+                    case 2:res = 'B'; break;
+                    case 3:res = 'A'; break;
+                    case 4:res = 'E';break;
                 }
 
                 Console.WriteLine(res.ToString());
             }
-        }
-    }
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            _2490 problem = new _2490();
-            problem.Solution();
         }
     }
 }

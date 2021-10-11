@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="구현\2490.cs" />
     <Compile Include="구현\2753.cs" />
     <Compile Include="문자열\10808.cs" />
   </ItemGroup>
