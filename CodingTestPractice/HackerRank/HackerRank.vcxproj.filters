@@ -12,11 +12,16 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Warmup\SolveMeFirst.cpp">
-      <Filter>Implementation</Filter>
+    <ClCompile Include="Warmup\SolveMeFirst.hpp">
+      <Filter>Warmup</Filter>
     </ClCompile>
-    <ClCompile Include="Warmup\CompareTheTriplets.cpp">
-      <Filter>Implementation</Filter>
+    <ClCompile Include="Warmup\CompareTheTriplets.hpp">
+      <Filter>Warmup</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SimpleArraySum.hpp">
+      <Filter>Warmup</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

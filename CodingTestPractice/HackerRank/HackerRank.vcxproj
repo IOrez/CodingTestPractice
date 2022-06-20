@@ -139,8 +139,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Warmup\CompareTheTriplets.cpp" />
-    <ClCompile Include="Warmup\SolveMeFirst.cpp" />
+    <ClCompile Include="Warmup\CompareTheTriplets.hpp" />
+    <ClCompile Include="Warmup\SolveMeFirst.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SimpleArraySum.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
