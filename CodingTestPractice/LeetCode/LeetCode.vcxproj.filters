@@ -13,6 +13,9 @@
     <ClInclude Include="Medium\406.hpp">
       <Filter>Medium</Filter>
     </ClInclude>
+    <ClInclude Include="Medium\462.hpp">
+      <Filter>Medium</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
