@@ -8,6 +8,9 @@
     <Filter Include="Medium">
       <UniqueIdentifier>{b3e12639-af24-4a58-8a25-04ff9eccd1c4}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Easy">
+      <UniqueIdentifier>{3dc5aac0-58f6-4d96-9129-6cd2431dcdbd}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Medium\406.hpp">
@@ -15,6 +18,9 @@
     </ClInclude>
     <ClInclude Include="Medium\462.hpp">
       <Filter>Medium</Filter>
+    </ClInclude>
+    <ClInclude Include="Easy\1710.hpp">
+      <Filter>Easy</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
