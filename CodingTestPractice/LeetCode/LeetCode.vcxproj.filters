@@ -25,6 +25,7 @@
     <ClInclude Include="Medium\1465.hpp">
       <Filter>Medium</Filter>
     </ClInclude>
+    <ClInclude Include="Medium\376.hpp" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
