@@ -11,6 +11,9 @@
     <Filter Include="Easy">
       <UniqueIdentifier>{3dc5aac0-58f6-4d96-9129-6cd2431dcdbd}</UniqueIdentifier>
     </Filter>
+    <Filter Include="hard">
+      <UniqueIdentifier>{b5bff4fe-6837-463b-b1a7-010a15a2ac7d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Medium\406.hpp">
@@ -29,5 +32,8 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="hard\135.hpp">
+      <Filter>hard</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

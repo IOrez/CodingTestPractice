@@ -146,6 +146,7 @@
     <ClInclude Include="Medium\462.hpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="hard\135.hpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
