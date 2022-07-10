@@ -23,5 +23,8 @@
     <ClInclude Include="SimpleArraySum.hpp">
       <Filter>Warmup</Filter>
     </ClInclude>
+    <ClInclude Include="Implementation\Forming a Magic Square.hpp">
+      <Filter>Implementation</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

@@ -143,6 +143,7 @@
     <ClCompile Include="Warmup\SolveMeFirst.hpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Implementation\Forming a Magic Square.hpp" />
     <ClInclude Include="SimpleArraySum.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
