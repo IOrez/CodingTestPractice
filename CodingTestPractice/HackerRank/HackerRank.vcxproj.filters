@@ -26,5 +26,8 @@
     <ClInclude Include="Implementation\Forming a Magic Square.hpp">
       <Filter>Implementation</Filter>
     </ClInclude>
+    <ClInclude Include="Implementation\Extra Long Factorials.hpp">
+      <Filter>Implementation</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
