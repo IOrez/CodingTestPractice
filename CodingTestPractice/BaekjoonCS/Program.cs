@@ -42,7 +42,7 @@ namespace BaekjoonCS
     {
         static void Main(string[] args)
         {
-            _2490 problem = new _2490();
+            _1926 problem = new _1926();
             problem.Solution();
         }
     }
