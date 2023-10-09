@@ -29,5 +29,11 @@
     <ClInclude Include="Implementation\Extra Long Factorials.hpp">
       <Filter>Implementation</Filter>
     </ClInclude>
+    <ClInclude Include="Implementation\NonDivisionSubset.hpp">
+      <Filter>Implementation</Filter>
+    </ClInclude>
+    <ClInclude Include="Implementation\Sherlock and the Valid String.hpp">
+      <Filter>Implementation</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

@@ -1134,5 +1134,11 @@
     <ClInclude Include="그래프이론\13549.hpp">
       <Filter>그래프이론</Filter>
     </ClInclude>
+    <ClInclude Include="수학\2581.hpp">
+      <Filter>수학</Filter>
+    </ClInclude>
+    <ClInclude Include="문자열 처리\14425.hpp">
+      <Filter>문자열 처리</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
