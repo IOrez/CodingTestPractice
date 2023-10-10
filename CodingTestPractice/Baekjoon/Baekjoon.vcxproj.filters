@@ -1140,5 +1140,17 @@
     <ClInclude Include="문자열 처리\14425.hpp">
       <Filter>문자열 처리</Filter>
     </ClInclude>
+    <ClInclude Include="문자열 처리\4354.hpp">
+      <Filter>문자열 처리</Filter>
+    </ClInclude>
+    <ClInclude Include="문자열 처리\1305.hpp">
+      <Filter>문자열 처리</Filter>
+    </ClInclude>
+    <ClInclude Include="문자열 처리\9253.hpp">
+      <Filter>문자열 처리</Filter>
+    </ClInclude>
+    <ClInclude Include="문자열 처리\1786.hpp">
+      <Filter>문자열 처리</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
