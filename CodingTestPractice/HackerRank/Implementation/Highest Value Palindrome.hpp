@@ -77,7 +77,7 @@ string highestValuePalindrome(string s, int n, int k) {
             s[second] = '9';
         }
 
-        if (k == 1 && s.size() % 2 != 0)
+        if (k >= 1 && s.size() % 2 != 0)
         {
             s[s.size() / 2] = '9';
             k--;

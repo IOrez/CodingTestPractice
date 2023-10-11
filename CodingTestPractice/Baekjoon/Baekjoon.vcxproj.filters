@@ -1152,5 +1152,8 @@
     <ClInclude Include="문자열 처리\1786.hpp">
       <Filter>문자열 처리</Filter>
     </ClInclude>
+    <ClInclude Include="다익스트라\1504.hpp">
+      <Filter>다익스트라</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
