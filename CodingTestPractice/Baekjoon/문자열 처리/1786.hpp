@@ -16,7 +16,7 @@ vector<int> fail_func(string s)
 		if (s[i] == s[j])
 			j++;
 
-		vfail[i] = j;
+		vfail[i] = j; 
 	}
 
 	return vfail;
