@@ -41,5 +41,11 @@
     <ClInclude Include="Implementation\Sherlock and Cost.hpp">
       <Filter>Implementation</Filter>
     </ClInclude>
+    <ClInclude Include="Implementation\Max Min.hpp">
+      <Filter>Implementation</Filter>
+    </ClInclude>
+    <ClInclude Include="Implementation\Sam and substrings.hpp">
+      <Filter>Implementation</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
