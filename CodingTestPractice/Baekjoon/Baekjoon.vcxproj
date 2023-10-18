@@ -341,6 +341,7 @@
     <ClInclude Include="다이나믹 프로그래밍\9655.hpp" />
     <ClInclude Include="다이나믹 프로그래밍\9656.hpp" />
     <ClInclude Include="다익스트라\10217.hpp" />
+    <ClInclude Include="다익스트라\10282.hpp" />
     <ClInclude Include="다익스트라\1261.hpp" />
     <ClInclude Include="다익스트라\14496.hpp" />
     <ClInclude Include="다익스트라\1504.hpp" />
@@ -448,6 +449,7 @@
     <ClInclude Include="스택\2504.hpp" />
     <ClInclude Include="스택\9012.hpp" />
     <ClInclude Include="시뮬레이션\14499.hpp" />
+    <ClInclude Include="시뮬레이션\17135.hpp" />
     <ClInclude Include="시뮬레이션\17822.hpp" />
     <ClInclude Include="이분탐색\10815.hpp" />
     <ClInclude Include="이분탐색\10816.hpp" />
