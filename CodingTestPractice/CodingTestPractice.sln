@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.29905.134
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33627.172
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Baekjoon", "Baekjoon\Baekjoon.vcxproj", "{3E7E1933-0B4E-45E9-9246-2DAFDEC169BA}"
 EndProject
@@ -12,8 +12,6 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Codeforces", "Codeforces\Codeforces.vcxproj", "{A39B88C4-F3C6-4F39-8D27-631806F38910}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Programmers", "Programmers\Programmers.vcxproj", "{A6BDA4E1-9781-45EB-A791-523F9EEA4357}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaekjoonCS", "BaekjoonCS\BaekjoonCS.csproj", "{6EE34B80-EC1C-4C55-8FEC-1D8159529884}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HackerRank", "HackerRank\HackerRank.vcxproj", "{B47B6C53-6DB7-486F-BF7D-E3E058A16BB3}"
 EndProject
@@ -79,18 +77,6 @@ Global
 		{A6BDA4E1-9781-45EB-A791-523F9EEA4357}.Release|x64.Build.0 = Release|x64
 		{A6BDA4E1-9781-45EB-A791-523F9EEA4357}.Release|x86.ActiveCfg = Release|Win32
 		{A6BDA4E1-9781-45EB-A791-523F9EEA4357}.Release|x86.Build.0 = Release|Win32
-		{6EE34B80-EC1C-4C55-8FEC-1D8159529884}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6EE34B80-EC1C-4C55-8FEC-1D8159529884}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6EE34B80-EC1C-4C55-8FEC-1D8159529884}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{6EE34B80-EC1C-4C55-8FEC-1D8159529884}.Debug|x64.Build.0 = Debug|Any CPU
-		{6EE34B80-EC1C-4C55-8FEC-1D8159529884}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{6EE34B80-EC1C-4C55-8FEC-1D8159529884}.Debug|x86.Build.0 = Debug|Any CPU
-		{6EE34B80-EC1C-4C55-8FEC-1D8159529884}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6EE34B80-EC1C-4C55-8FEC-1D8159529884}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6EE34B80-EC1C-4C55-8FEC-1D8159529884}.Release|x64.ActiveCfg = Release|Any CPU
-		{6EE34B80-EC1C-4C55-8FEC-1D8159529884}.Release|x64.Build.0 = Release|Any CPU
-		{6EE34B80-EC1C-4C55-8FEC-1D8159529884}.Release|x86.ActiveCfg = Release|Any CPU
-		{6EE34B80-EC1C-4C55-8FEC-1D8159529884}.Release|x86.Build.0 = Release|Any CPU
 		{B47B6C53-6DB7-486F-BF7D-E3E058A16BB3}.Debug|Any CPU.ActiveCfg = Debug|Win32
 		{B47B6C53-6DB7-486F-BF7D-E3E058A16BB3}.Debug|x64.ActiveCfg = Debug|x64
 		{B47B6C53-6DB7-486F-BF7D-E3E058A16BB3}.Debug|x64.Build.0 = Debug|x64

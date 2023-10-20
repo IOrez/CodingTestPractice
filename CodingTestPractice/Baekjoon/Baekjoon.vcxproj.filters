@@ -1191,5 +1191,13 @@
     <ClInclude Include="다익스트라\10282.hpp">
       <Filter>다익스트라</Filter>
     </ClInclude>
+    <ClInclude Include="구현\8982.hpp">
+      <Filter>구현</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="정렬\1655.hpp">
+      <Filter>정렬</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

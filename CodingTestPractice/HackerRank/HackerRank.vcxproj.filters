@@ -10,6 +10,9 @@
     <Filter Include="Strings">
       <UniqueIdentifier>{8fa4929d-ffb0-4870-8938-9122d83f1ead}</UniqueIdentifier>
     </Filter>
+    <Filter Include="NexonCodeTest">
+      <UniqueIdentifier>{292a3db3-731e-44d2-9903-3eb4ab9400fd}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Warmup\SolveMeFirst.hpp">
@@ -46,6 +49,30 @@
     </ClInclude>
     <ClInclude Include="Implementation\Sam and substrings.hpp">
       <Filter>Implementation</Filter>
+    </ClInclude>
+    <ClInclude Include="Implementation\Queen%27s Attack II.hpp">
+      <Filter>Implementation</Filter>
+    </ClInclude>
+    <ClInclude Include="NexonCodetest\1.hpp">
+      <Filter>NexonCodeTest</Filter>
+    </ClInclude>
+    <ClInclude Include="NexonCodetest\2.hpp">
+      <Filter>NexonCodeTest</Filter>
+    </ClInclude>
+    <ClInclude Include="NexonCodetest\3.hpp">
+      <Filter>NexonCodeTest</Filter>
+    </ClInclude>
+    <ClInclude Include="NexonCodetest\4.hpp">
+      <Filter>NexonCodeTest</Filter>
+    </ClInclude>
+    <ClInclude Include="NexonCodetest\5.hpp">
+      <Filter>NexonCodeTest</Filter>
+    </ClInclude>
+    <ClInclude Include="NexonCodetest\6.hpp">
+      <Filter>NexonCodeTest</Filter>
+    </ClInclude>
+    <ClInclude Include="NexonCodetest\7.hpp">
+      <Filter>NexonCodeTest</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

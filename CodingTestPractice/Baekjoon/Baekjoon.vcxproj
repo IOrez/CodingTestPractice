@@ -193,6 +193,7 @@
     <ClInclude Include="구현\4948.hpp" />
     <ClInclude Include="구현\5430.hpp" />
     <ClInclude Include="구현\8320.hpp" />
+    <ClInclude Include="구현\8982.hpp" />
     <ClInclude Include="그래프이론\1043.hpp" />
     <ClInclude Include="그래프이론\1162.hpp" />
     <ClInclude Include="그래프이론\11812.hpp" />
@@ -505,6 +506,9 @@
     <ClInclude Include="플로이드 와샬 알고리즘\17182.hpp" />
     <ClInclude Include="확률\1089.hpp" />
     <ClInclude Include="확률\13251.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="정렬\1655.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

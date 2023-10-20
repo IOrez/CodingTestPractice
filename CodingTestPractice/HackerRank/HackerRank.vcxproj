@@ -149,9 +149,17 @@
     <ClInclude Include="Implementation\Highest Value Palindrome.hpp" />
     <ClInclude Include="Implementation\Max Min.hpp" />
     <ClInclude Include="Implementation\NonDivisionSubset.hpp" />
+    <ClInclude Include="Implementation\Queen%27s Attack II.hpp" />
     <ClInclude Include="Implementation\Sam and substrings.hpp" />
     <ClInclude Include="Implementation\Sherlock and Cost.hpp" />
     <ClInclude Include="Implementation\Sherlock and the Valid String.hpp" />
+    <ClInclude Include="NexonCodetest\1.hpp" />
+    <ClInclude Include="NexonCodetest\2.hpp" />
+    <ClInclude Include="NexonCodetest\3.hpp" />
+    <ClInclude Include="NexonCodetest\4.hpp" />
+    <ClInclude Include="NexonCodetest\5.hpp" />
+    <ClInclude Include="NexonCodetest\6.hpp" />
+    <ClInclude Include="NexonCodetest\7.hpp" />
     <ClInclude Include="SimpleArraySum.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
